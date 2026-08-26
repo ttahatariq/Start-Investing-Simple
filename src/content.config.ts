@@ -9,6 +9,7 @@ const blog = defineCollection({
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     author: z.string().default('Start Investing Simple Team'),
+    heroImage: z.string().optional(),
     category: z.string(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),

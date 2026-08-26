@@ -1,0 +1,89 @@
+---
+// Full market overview powered by TradingView's free widget — indices, stocks, futures,
+// bonds, and forex, tabbed. Data shown is typically delayed 15-20 minutes for most
+// exchanges (standard for free widgets), not true real-time.
+// The config is injected via set:html so Astro's compiler treats it as an opaque string
+// instead of trying to parse the JSON as JavaScript.
+const widgetConfig = {
+  colorTheme: 'dark',
+  dateRange: '12M',
+  showChart: true,
+  locale: 'en',
+  largeChartUrl: '',
+  isTransparent: true,
+  showSymbolLogo: true,
+  showFloatingTooltip: false,
+  width: '100%',
+  height: '600',
+  plotLineColorGrowing: 'rgba(47, 227, 104, 1)',
+  plotLineColorFalling: 'rgba(241, 155, 58, 1)',
+  gridLineColor: 'rgba(42, 45, 52, 1)',
+  scaleFontColor: 'rgba(154, 154, 160, 1)',
+  belowLineFillColorGrowing: 'rgba(47, 227, 104, 0.12)',
+  belowLineFillColorFalling: 'rgba(241, 155, 58, 0.12)',
+  belowLineFillColorGrowingBottom: 'rgba(47, 227, 104, 0)',
+  belowLineFillColorFallingBottom: 'rgba(241, 155, 58, 0)',
+  symbolActiveColor: 'rgba(47, 227, 104, 0.12)',
+  tabs: [
+    {
+      title: 'Indices',
+      symbols: [
+        { s: 'FOREXCOM:SPXUSD', d: 'S&P 500' },
+        { s: 'FOREXCOM:NSXUSD', d: 'Nasdaq 100' },
+        { s: 'FOREXCOM:DJI', d: 'Dow Jones' },
+        { s: 'INDEX:NKY', d: 'Japan 225' },
+        { s: 'INDEX:DEU40', d: 'DAX Index' },
+      ],
+      originalTitle: 'Indices',
+    },
+    {
+      title: 'Stocks',
+      symbols: [
+        { s: 'NASDAQ:AAPL', d: 'Apple' },
+        { s: 'NASDAQ:MSFT', d: 'Microsoft' },
+        { s: 'NASDAQ:GOOGL', d: 'Alphabet' },
+        { s: 'NASDAQ:AMZN', d: 'Amazon' },
+        { s: 'NYSE:BRK.B', d: 'Berkshire Hathaway' },
+      ],
+      originalTitle: 'Stocks',
+    },
+    {
+      title: 'Futures',
+      symbols: [
+        { s: 'CME_MINI:ES1!', d: 'S&P 500' },
+        { s: 'COMEX:GC1!', d: 'Gold' },
+        { s: 'NYMEX:CL1!', d: 'Crude Oil' },
+      ],
+      originalTitle: 'Futures',
+    },
+    {
+      title: 'Bonds',
+      symbols: [
+        { s: 'CBOT:ZB1!', d: 'T-Bond' },
+        { s: 'CBOT:UB1!', d: 'Ultra T-Bond' },
+      ],
+      originalTitle: 'Bonds',
+    },
+    {
+      title: 'Forex',
+      symbols: [
+        { s: 'FX:EURUSD', d: 'EUR/USD' },
+        { s: 'FX:GBPUSD', d: 'GBP/USD' },
+        { s: 'FX:USDJPY', d: 'USD/JPY' },
+      ],
+      originalTitle: 'Forex',
+    },
+  ],
+};
+---
+
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script
+    type="text/javascript"
+    src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js"
+    async
+    is:inline
+    set:html={JSON.stringify(widgetConfig)}
+  />
+</div>

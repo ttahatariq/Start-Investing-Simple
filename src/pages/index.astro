@@ -1,19 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Marquee from '../components/Marquee.astro';
+import StockTickerTape from '../components/StockTickerTape.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 const latestPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 3);
-
-const tickerItems = [
-  'Index Funds',
-  'Compound Interest',
-  'Retirement Planning',
-  'Emergency Funds',
-  'Budgeting',
-  'Roth IRA',
-];
 
 const pillars = [
   {
@@ -38,7 +29,10 @@ const pillars = [
   title="Start Investing Simple"
   description="Plain-English guides to investing, saving, and money basics for beginners. No jargon, no hype — just clear explanations to help you get started."
 >
-  <section class="border-b border-line">
+  <section
+    class="border-b border-line bg-cover bg-center"
+    style="background-image: linear-gradient(to bottom, rgba(9,9,11,0.65), rgba(9,9,11,0.97)), url(/img/hero-skyline.jpg);"
+  >
     <div class="mx-auto max-w-6xl px-4 py-24 sm:px-6">
       <p class="font-mono text-xs uppercase tracking-widest text-brand">Personal Finance, Simplified<span class="text-orange">/</span></p>
       <h1 class="mt-4 max-w-3xl text-4xl font-extrabold leading-[1.05] tracking-tight text-paper sm:text-6xl">
@@ -60,7 +54,7 @@ const pillars = [
     </div>
   </section>
 
-  <Marquee items={tickerItems} />
+  <StockTickerTape />
 
   <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
     <div class="grid gap-10 sm:grid-cols-[auto_1fr] sm:items-center">

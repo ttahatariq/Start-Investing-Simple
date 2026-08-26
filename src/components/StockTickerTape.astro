@@ -1,0 +1,32 @@
+---
+// Live-updating ticker tape powered by TradingView's free widget (no API key/backend needed).
+// The config is injected via set:html so Astro's compiler treats it as an opaque string
+// instead of trying to parse the JSON as JavaScript.
+const widgetConfig = {
+  symbols: [
+    { proName: 'FOREXCOM:SPXUSD', title: 'S&P 500' },
+    { proName: 'FOREXCOM:NSXUSD', title: 'Nasdaq 100' },
+    { proName: 'AMEX:DIA', title: 'Dow Jones' },
+    { proName: 'NASDAQ:AAPL', title: 'Apple' },
+    { proName: 'NASDAQ:MSFT', title: 'Microsoft' },
+    { proName: 'BITSTAMP:BTCUSD', title: 'Bitcoin' },
+  ],
+  colorTheme: 'dark',
+  locale: 'en',
+  largeChartUrl: '',
+  isTransparent: true,
+  showSymbolLogo: true,
+  displayMode: 'adaptive',
+};
+---
+
+<div class="tradingview-widget-container border-y border-line bg-surface">
+  <div class="tradingview-widget-container__widget"></div>
+  <script
+    type="text/javascript"
+    src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+    async
+    is:inline
+    set:html={JSON.stringify(widgetConfig)}
+  />
+</div>

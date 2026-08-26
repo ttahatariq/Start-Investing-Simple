@@ -3,6 +3,7 @@ title: "Why You Should Build an Emergency Fund Before You Start Investing"
 description: "Learn why financial experts recommend saving an emergency fund first, how much to save, and where to keep it."
 pubDate: 2026-02-20
 author: "Start Investing Simple Team"
+heroImage: "/img/savings-jar.jpg"
 category: "Saving & Budgeting"
 tags: ["emergency fund", "saving", "budgeting"]
 ---
