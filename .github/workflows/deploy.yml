@@ -1,4 +1,8 @@
-name: Deploy to RabHost
+name: Build and Publish
+
+# Builds the Astro site and publishes the static output to the `live` branch.
+# cPanel's Git Version Control clones the `live` branch directly into public_html,
+# so no build step (npm/node) is needed on the hosting server itself.
 
 on:
   push:
@@ -6,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,16 +27,10 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Deploy to cPanel via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Publish dist/ to live branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          local-dir: ./dist/
-          # This should be the public web root for startinvestingsimple.com in your
-          # cPanel account — usually public_html/ if it's the primary domain on the
-          # account, or public_html/startinvestingsimple.com/ if it was added as an
-          # addon domain. Check cPanel > Domains to confirm the document root.
-          server-dir: ./public_html/
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: live
+          force_orphan: true
