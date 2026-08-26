@@ -1,0 +1,66 @@
+---
+const navLinks = [
+  { href: '/', label: 'Home' },
+  { href: '/blog/', label: 'Articles' },
+  { href: '/tools/', label: 'Tools' },
+  { href: '/about/', label: 'About' },
+  { href: '/contact/', label: 'Contact' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="glass sticky top-0 z-50 border-b border-line">
+  <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
+    <a href="/" class="flex items-center gap-2 text-base font-bold tracking-tight text-paper">
+      <span class="inline-flex h-8 w-8 items-center justify-center rounded-sm border border-brand/40 bg-brand/10 font-mono text-brand">$</span>
+      <span>Start Investing Simple<span class="text-brand">/</span></span>
+    </a>
+
+    <button
+      id="menu-toggle"
+      class="sm:hidden inline-flex items-center justify-center rounded-sm border border-line p-2 text-paper hover:border-brand"
+      aria-label="Toggle menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+    <ul class="hidden sm:flex items-center gap-8 font-mono text-xs uppercase tracking-wider text-muted">
+      {navLinks.map((link) => (
+        <li>
+          <a
+            href={link.href}
+            class:list={[
+              'transition-colors hover:text-brand',
+              currentPath === link.href && 'text-brand',
+            ]}
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+
+  <ul id="mobile-menu" class="hidden sm:hidden flex-col gap-1 border-t border-line px-4 py-3 font-mono text-xs uppercase tracking-wider text-muted">
+    {navLinks.map((link) => (
+      <li>
+        <a href={link.href} class="block rounded-sm px-2 py-2 hover:bg-surface hover:text-brand">{link.label}</a>
+      </li>
+    ))}
+  </ul>
+</header>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  toggle?.addEventListener('click', () => {
+    const isOpen = menu?.classList.toggle('flex');
+    menu?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', String(!!isOpen));
+  });
+</script>

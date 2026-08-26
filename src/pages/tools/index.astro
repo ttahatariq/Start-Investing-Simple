@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const tools = [
+  {
+    href: '/tools/compound-interest-calculator/',
+    title: 'Compound Interest Calculator',
+    description: 'See how your investments could grow over time with regular contributions and compound returns.',
+  },
+];
+---
+
+<Layout
+  title="Tools & Calculators"
+  description="Free investing and personal finance calculators to help you plan your financial future."
+>
+  <div class="mx-auto max-w-4xl px-4 py-16 sm:px-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-brand">Plan<span class="text-orange">/</span></p>
+    <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-paper sm:text-4xl">Tools & Calculators</h1>
+    <p class="mt-3 text-lg text-muted">Free calculators to help you explore how your money could grow.</p>
+
+    <div class="mt-10 grid gap-6 sm:grid-cols-2">
+      {tools.map((tool) => (
+        <a href={tool.href} class="corner-card block rounded-sm bg-surface p-6 transition hover:bg-surface-2">
+          <h2 class="text-lg font-semibold text-paper">{tool.title}</h2>
+          <p class="mt-2 text-sm text-muted">{tool.description}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>

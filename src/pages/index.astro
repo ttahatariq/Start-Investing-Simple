@@ -1,0 +1,114 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Marquee from '../components/Marquee.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const latestPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 3);
+
+const tickerItems = [
+  'Index Funds',
+  'Compound Interest',
+  'Retirement Planning',
+  'Emergency Funds',
+  'Budgeting',
+  'Roth IRA',
+];
+
+const pillars = [
+  {
+    title: 'Investing Basics',
+    description: 'Stocks, bonds, index funds, and how markets actually work — explained without jargon.',
+    accent: 'text-brand',
+  },
+  {
+    title: 'Saving & Budgeting',
+    description: 'Practical habits for building an emergency fund and making your paycheck go further.',
+    accent: 'text-aqua',
+  },
+  {
+    title: 'Retirement Planning',
+    description: 'How 401(k)s, IRAs, and compound growth work together over the long run.',
+    accent: 'text-violet',
+  },
+];
+---
+
+<Layout
+  title="Start Investing Simple"
+  description="Plain-English guides to investing, saving, and money basics for beginners. No jargon, no hype — just clear explanations to help you get started."
+>
+  <section class="border-b border-line">
+    <div class="mx-auto max-w-6xl px-4 py-24 sm:px-6">
+      <p class="font-mono text-xs uppercase tracking-widest text-brand">Personal Finance, Simplified<span class="text-orange">/</span></p>
+      <h1 class="mt-4 max-w-3xl text-4xl font-extrabold leading-[1.05] tracking-tight text-paper sm:text-6xl">
+        Investing<span class="text-orange">,</span> explained
+        <span class="text-muted">simply</span><span class="text-brand">/</span>
+      </h1>
+      <p class="mt-6 max-w-xl text-lg text-muted">
+        Clear, beginner-friendly guides to help you understand investing and money — without the jargon,
+        the hype, or the sales pitch.
+      </p>
+      <div class="mt-10 flex flex-wrap items-center gap-4">
+        <a href="/blog/" class="rounded-sm bg-brand px-6 py-3 font-mono text-sm font-semibold uppercase tracking-wide text-ink hover:bg-brand-dim">
+          Start Reading
+        </a>
+        <a href="/tools/" class="rounded-sm border border-line px-6 py-3 font-mono text-sm font-semibold uppercase tracking-wide text-paper hover:border-brand hover:text-brand">
+          Try Our Calculators
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <Marquee items={tickerItems} />
+
+  <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+    <div class="grid gap-10 sm:grid-cols-[auto_1fr] sm:items-center">
+      <div class="corner-card flex flex-col items-center justify-center rounded-sm bg-surface px-10 py-8">
+        <span class="text-5xl font-extrabold text-brand">0%</span>
+        <span class="mt-1 font-mono text-xs uppercase tracking-wider text-muted">sales pitch</span>
+      </div>
+      <p class="max-w-2xl text-xl leading-relaxed text-paper/90">
+        <span class="text-brand font-semibold">Start Investing Simple</span> breaks down investing and money into
+        plain language, so you can build the confidence to manage your own finances
+        <span class="text-orange">/</span>
+      </p>
+    </div>
+  </section>
+
+  <section class="border-t border-line bg-surface">
+    <div class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+      <h2 class="text-2xl font-bold text-paper">
+        What you'll <span class="text-muted">learn</span><span class="text-orange">/</span>
+      </h2>
+      <div class="mt-10 grid gap-6 sm:grid-cols-3">
+        {pillars.map((pillar) => (
+          <div class="corner-card rounded-sm bg-ink p-6">
+            <h3 class={`text-lg font-semibold ${pillar.accent}`}>{pillar.title}</h3>
+            <p class="mt-3 text-sm leading-relaxed text-muted">{pillar.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {latestPosts.length > 0 && (
+    <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-bold text-paper">
+          Latest <span class="text-muted">articles</span><span class="text-orange">/</span>
+        </h2>
+        <a href="/blog/" class="font-mono text-xs uppercase tracking-wider text-brand hover:underline">View all &rarr;</a>
+      </div>
+      <div class="mt-10 grid gap-6 sm:grid-cols-3">
+        {latestPosts.map((post) => (
+          <a href={`/blog/${post.id}/`} class="corner-card block rounded-sm bg-surface p-6 transition hover:bg-surface-2">
+            <p class="font-mono text-xs uppercase tracking-wide text-brand">{post.data.category}</p>
+            <h3 class="mt-3 text-lg font-semibold text-paper">{post.data.title}</h3>
+            <p class="mt-2 text-sm text-muted line-clamp-3">{post.data.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</Layout>

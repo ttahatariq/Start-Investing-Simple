@@ -1,0 +1,35 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CompoundInterestCalculator from '../../components/CompoundInterestCalculator';
+---
+
+<Layout
+  title="Compound Interest Calculator"
+  description="Free compound interest calculator. Estimate how your investments could grow over time with regular monthly contributions."
+>
+  <div class="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-brand">Tool<span class="text-orange">/</span></p>
+    <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-paper sm:text-4xl">Compound Interest Calculator</h1>
+    <p class="mt-3 text-lg text-muted">
+      Enter your starting balance, monthly contribution, and estimated return to see how your money could grow
+      over time.
+    </p>
+
+    <div class="mt-8">
+      <CompoundInterestCalculator client:load />
+    </div>
+
+    <div class="prose prose-invert mt-10 max-w-none prose-a:text-brand">
+      <h2>How this calculator works</h2>
+      <p>
+        This tool uses the standard compound interest formula, applying your estimated annual return monthly and
+        adding your monthly contribution at the end of each month. It assumes a constant rate of return, which is
+        a simplification — real investment returns vary year to year.
+      </p>
+      <p>
+        Want to understand the math behind compounding? Read our guide on{' '}
+        <a href="/blog/what-is-compound-interest/">how compound interest works</a>.
+      </p>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,92 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const lastUpdated = 'August 26, 2026';
+const contactEmail = 'hello@startinvestingsimple.com';
+---
+
+<Layout
+  title="Privacy Policy"
+  description="Start Investing Simple's privacy policy: how we collect, use, and protect your information, including our use of cookies and advertising."
+>
+  <div class="mx-auto max-w-3xl px-4 py-16 sm:px-6 prose prose-invert max-w-none prose-a:text-brand prose-strong:text-paper">
+    <h1>Privacy Policy</h1>
+    <p><em>Last updated: {lastUpdated}</em></p>
+
+    <p>
+      This Privacy Policy explains how Start Investing Simple ("we," "us," or "our") collects, uses, and shares
+      information when you visit startinvestingsimple.com (the "Site").
+    </p>
+
+    <h2>Information We Collect</h2>
+    <p>We may collect the following types of information:</p>
+    <ul>
+      <li><strong>Usage data</strong> collected automatically, such as pages visited, time on site, browser type, device type, and referring URLs, via analytics tools.</li>
+      <li><strong>Information you provide directly</strong>, such as your name and email address if you contact us through our <a href="/contact/">contact page</a>.</li>
+    </ul>
+
+    <h2>Cookies and Similar Technologies</h2>
+    <p>
+      We use cookies and similar tracking technologies to operate the Site, understand how it's used, and — where
+      applicable — to serve advertising. Cookies are small text files stored on your device.
+    </p>
+
+    <h2>Advertising (Google AdSense)</h2>
+    <p>
+      We use or intend to use Google AdSense to display advertisements on this Site. Third-party vendors, including
+      Google, use cookies to serve ads based on a user's prior visits to this website or other websites. Google's
+      use of advertising cookies enables it and its partners to serve ads based on your visit to this Site and/or
+      other sites on the Internet.
+    </p>
+    <p>
+      You may opt out of personalized advertising by visiting Google's
+      <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Ads Settings</a>, or opt
+      out of third-party vendor use of cookies for personalized advertising by visiting
+      <a href="https://www.aboutads.info/choices" target="_blank" rel="noopener noreferrer">www.aboutads.info</a>.
+    </p>
+
+    <h2>Analytics</h2>
+    <p>
+      We may use analytics services (such as Google Analytics) to help us understand how visitors use the Site.
+      These services may use cookies and similar technologies to collect and analyze information about Site usage.
+    </p>
+
+    <h2>How We Use Information</h2>
+    <ul>
+      <li>To operate, maintain, and improve the Site</li>
+      <li>To understand how visitors use our content</li>
+      <li>To respond to inquiries sent through our contact page</li>
+      <li>To display relevant advertising</li>
+    </ul>
+
+    <h2>Your Choices</h2>
+    <p>
+      Most browsers let you control cookies through their settings. Disabling cookies may affect the functionality
+      of the Site. You can also use the opt-out tools linked above to limit personalized advertising.
+    </p>
+
+    <h2>Children's Privacy</h2>
+    <p>
+      This Site is not directed to children under 13, and we do not knowingly collect personal information from
+      children under 13.
+    </p>
+
+    <h2>Third-Party Links</h2>
+    <p>
+      Our Site may contain links to third-party websites. We are not responsible for the privacy practices or
+      content of those sites.
+    </p>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated
+      "Last updated" date.
+    </p>
+
+    <h2>Contact Us</h2>
+    <p>
+      If you have questions about this Privacy Policy, contact us at{' '}
+      <a href={`mailto:${contactEmail}`}>{contactEmail}</a>.
+    </p>
+  </div>
+</Layout>

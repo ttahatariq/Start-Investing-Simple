@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Roboto Mono", ui-monospace, monospace;
+
+  --color-ink: #09090b;
+  --color-surface: #131418;
+  --color-surface-2: #1b1d23;
+  --color-line: #2a2d34;
+  --color-paper: #f5f5f4;
+  --color-muted: #9a9aa0;
+
+  --color-brand: #2fe368;
+  --color-brand-dim: #1c8f43;
+  --color-aqua: #5eecff;
+  --color-violet: #c084fc;
+  --color-orange: #f19b3a;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-ink);
+    color: var(--color-paper);
+  }
+}
+
+@layer utilities {
+  /* "Blueprint" corner-bracket card, inspired by KRON-Dev's cross-cornered panels */
+  .corner-card {
+    position: relative;
+    border: 1px solid var(--color-line);
+  }
+  .corner-card::before,
+  .corner-card::after,
+  .corner-card > .corner-tr,
+  .corner-card > .corner-bl {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    pointer-events: none;
+  }
+  .corner-card::before {
+    top: -1px;
+    left: -1px;
+    border-top: 1px solid var(--color-brand);
+    border-left: 1px solid var(--color-brand);
+  }
+  .corner-card::after {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 1px solid var(--color-brand);
+    border-right: 1px solid var(--color-brand);
+  }
+
+  .glass {
+    background-color: color-mix(in srgb, var(--color-surface) 70%, transparent);
+    backdrop-filter: blur(10px);
+  }
+
+  .marquee-track {
+    animation: marquee 28s linear infinite;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}

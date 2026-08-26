@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const lastUpdated = 'August 26, 2026';
+const contactEmail = 'hello@startinvestingsimple.com';
+---
+
+<Layout
+  title="Terms of Use"
+  description="The terms and conditions governing your use of Start Investing Simple."
+>
+  <div class="mx-auto max-w-3xl px-4 py-16 sm:px-6 prose prose-invert max-w-none prose-a:text-brand prose-strong:text-paper">
+    <h1>Terms of Use</h1>
+    <p><em>Last updated: {lastUpdated}</em></p>
+
+    <p>
+      By accessing or using startinvestingsimple.com ("the Site"), you agree to be bound by these Terms of Use.
+      If you do not agree, please do not use the Site.
+    </p>
+
+    <h2>Use of Content</h2>
+    <p>
+      All content on this Site, including text, graphics, logos, and calculators, is owned by Start Investing
+      Simple unless otherwise noted, and is provided for personal, non-commercial use. You may not reproduce,
+      distribute, or republish content without our prior written permission.
+    </p>
+
+    <h2>No Professional Advice</h2>
+    <p>
+      Content on this Site is educational and general in nature. It does not constitute financial, investment,
+      tax, or legal advice. See our <a href="/disclaimer/">Disclaimer</a> for more detail.
+    </p>
+
+    <h2>Limitation of Liability</h2>
+    <p>
+      The Site and its content are provided "as is" without warranties of any kind. To the fullest extent
+      permitted by law, Start Investing Simple shall not be liable for any damages arising from your use of, or
+      inability to use, the Site or reliance on any information provided.
+    </p>
+
+    <h2>Third-Party Links</h2>
+    <p>
+      The Site may contain links to third-party websites. We are not responsible for the content, accuracy, or
+      practices of those sites.
+    </p>
+
+    <h2>Changes to These Terms</h2>
+    <p>
+      We may update these Terms of Use from time to time. Continued use of the Site after changes are posted
+      constitutes acceptance of the revised terms.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about these terms? Contact us at <a href={`mailto:${contactEmail}`}>{contactEmail}</a>.
+    </p>
+  </div>
+</Layout>

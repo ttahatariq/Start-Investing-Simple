@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const lastUpdated = 'August 26, 2026';
+const contactEmail = 'hello@startinvestingsimple.com';
+---
+
+<Layout
+  title="Disclaimer"
+  description="Important disclaimer: Start Investing Simple provides educational content only and does not offer personalized financial, investment, tax, or legal advice."
+>
+  <div class="mx-auto max-w-3xl px-4 py-16 sm:px-6 prose prose-invert max-w-none prose-a:text-brand prose-strong:text-paper">
+    <h1>Disclaimer</h1>
+    <p><em>Last updated: {lastUpdated}</em></p>
+
+    <h2>No Financial Advice</h2>
+    <p>
+      The content on Start Investing Simple ("the Site") is for general informational and educational purposes
+      only. It is not intended to be, and should not be construed as, personalized financial, investment, tax,
+      legal, or accounting advice. We are not licensed financial advisors, brokers, or tax professionals.
+    </p>
+
+    <h2>No Guarantees</h2>
+    <p>
+      Investing involves risk, including the potential loss of principal. Past performance is not indicative of
+      future results. Any examples, figures, or calculators provided on this Site (including our tools and
+      calculators) are for illustrative purposes only and should not be relied upon as a prediction of actual
+      investment results.
+    </p>
+
+    <h2>Do Your Own Research</h2>
+    <p>
+      Before making any financial decision, we strongly encourage you to conduct your own research and consult
+      with a qualified, licensed financial advisor, accountant, or attorney who understands your individual
+      circumstances.
+    </p>
+
+    <h2>Accuracy of Information</h2>
+    <p>
+      We work to keep our content accurate and up to date, but financial rules, tax laws, and market conditions
+      change frequently. We make no representations or warranties about the completeness, accuracy, or reliability
+      of any information on this Site.
+    </p>
+
+    <h2>Affiliate Disclosure</h2>
+    <p>
+      Some links on this Site may be affiliate links, meaning we may earn a commission if you click through and
+      make a purchase or sign up for a service, at no additional cost to you. We only recommend products or
+      services we believe may be useful to our readers. This does not influence the editorial content we publish.
+    </p>
+
+    <h2>Advertising</h2>
+    <p>
+      This Site may display advertisements served by third parties, including Google AdSense. We do not
+      necessarily endorse the products or services advertised on this Site.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about this disclaimer? Reach out at <a href={`mailto:${contactEmail}`}>{contactEmail}</a>.
+    </p>
+  </div>
+</Layout>

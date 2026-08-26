@@ -1,0 +1,38 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Layout
+  title="Articles"
+  description="Beginner-friendly articles on investing, saving, budgeting, and retirement planning — explained in plain English."
+>
+  <div class="mx-auto max-w-4xl px-4 py-16 sm:px-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-brand">Read<span class="text-orange">/</span></p>
+    <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-paper sm:text-4xl">Articles</h1>
+    <p class="mt-3 text-lg text-muted">Plain-English guides to help you make sense of investing and money.</p>
+
+    {posts.length === 0 ? (
+      <p class="mt-10 text-muted">No articles published yet — check back soon.</p>
+    ) : (
+      <ul class="mt-10 space-y-6">
+        {posts.map((post) => (
+          <li>
+            <a href={`/blog/${post.id}/`} class="corner-card group block rounded-sm bg-surface p-6 transition hover:bg-surface-2">
+              <p class="font-mono text-xs uppercase tracking-wide text-brand">{post.data.category}</p>
+              <h2 class="mt-2 text-xl font-bold text-paper group-hover:text-brand">{post.data.title}</h2>
+              <p class="mt-2 text-muted">{post.data.description}</p>
+              <p class="mt-4 font-mono text-xs text-muted/70">{formatDate(post.data.pubDate)}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</Layout>
