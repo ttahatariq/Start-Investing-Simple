@@ -1,0 +1,25 @@
+---
+// Live financial news headlines powered by TradingView's free "Timeline" widget.
+// Shows headline + source + link back to the original article — no article text is
+// copied or hosted here, just an officially provided embed.
+const widgetConfig = {
+  feedMode: 'all_symbols',
+  isTransparent: true,
+  displayMode: 'regular',
+  width: '100%',
+  height: '550',
+  colorTheme: 'dark',
+  locale: 'en',
+};
+---
+
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script
+    type="text/javascript"
+    src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js"
+    async
+    is:inline
+    set:html={JSON.stringify(widgetConfig)}
+  />
+</div>

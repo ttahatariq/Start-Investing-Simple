@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import MarketOverviewWidget from '../components/MarketOverviewWidget.astro';
+import MarketNewsWidget from '../components/MarketNewsWidget.astro';
 ---
 
 <Layout
@@ -32,5 +33,20 @@ import MarketOverviewWidget from '../components/MarketOverviewWidget.astro';
       information is for general educational purposes only and is not personalized investment advice — see our
       <a href="/disclaimer/" class="text-brand underline">disclaimer</a>.
     </p>
+  </section>
+
+  <section class="border-t border-line bg-surface">
+    <div class="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+      <h2 class="text-2xl font-bold text-paper">
+        Latest <span class="text-muted">market news</span><span class="text-orange">/</span>
+      </h2>
+      <div class="corner-card mt-8 rounded-sm bg-ink p-4 sm:p-6">
+        <MarketNewsWidget />
+      </div>
+      <p class="mt-6 max-w-2xl text-xs text-muted">
+        Headlines are provided by TradingView and link out to their original publishers — we don't host or
+        reproduce the full articles.
+      </p>
+    </div>
   </section>
 </Layout>
