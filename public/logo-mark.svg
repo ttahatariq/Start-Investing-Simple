@@ -1,0 +1,13 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="10" fill="#09090b"/>
+  <rect width="48" height="48" rx="10" stroke="#2a2d34" stroke-width="1"/>
+
+  <!-- blueprint corner brackets, echoing the site's .corner-card motif -->
+  <path d="M7 15 V7 H15" stroke="#2fe368" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41 33 V41 H33" stroke="#2fe368" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ascending bars: growth / investing -->
+  <rect x="14" y="27" width="5" height="9" rx="1.2" fill="#2fe368"/>
+  <rect x="21.5" y="20" width="5" height="16" rx="1.2" fill="#5eecff"/>
+  <rect x="29" y="11" width="5" height="25" rx="1.2" fill="#2fe368"/>
+</svg>
