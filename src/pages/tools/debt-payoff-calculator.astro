@@ -1,0 +1,35 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import DebtPayoffCalculator from '../../components/DebtPayoffCalculator';
+---
+
+<Layout
+  title="Debt Payoff Calculator"
+  description="Free debt payoff calculator. Compare the snowball and avalanche methods side by side to see which pays off your debts faster and cheaper."
+>
+  <div class="mx-auto max-w-4xl px-4 py-16 sm:px-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-brand">Tool<span class="text-orange">/</span></p>
+    <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-paper sm:text-4xl">Debt Payoff Calculator</h1>
+    <p class="mt-3 text-lg text-muted">
+      Enter your debts and see how the snowball and avalanche payoff methods compare, side by side.
+    </p>
+
+    <div class="mt-8">
+      <DebtPayoffCalculator client:load />
+    </div>
+
+    <div class="prose prose-invert mt-10 max-w-none prose-a:text-brand">
+      <h2>How this calculator works</h2>
+      <p>
+        This tool simulates paying down your debts month by month under two strategies: the <strong>avalanche
+        method</strong> (extra payments go to the highest-interest debt first) and the <strong>snowball
+        method</strong> (extra payments go to the smallest balance first). As each debt is paid off, its minimum
+        payment is rolled into the next target debt under both methods.
+      </p>
+      <p>
+        Read our full <a href="/blog/debt-payoff-snowball-vs-avalanche/">debt snowball vs. avalanche guide</a> for
+        the reasoning behind each approach and which might fit you better.
+      </p>
+    </div>
+  </div>
+</Layout>
