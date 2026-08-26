@@ -3,14 +3,32 @@ import { getCollection, render } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
+  const WORDS_PER_MINUTE = 200;
   const posts = await getCollection('blog', ({ data }) => !data.draft);
-  return posts.map((post) => ({
-    params: { slug: post.id },
-    props: { post },
-  }));
+
+  return posts.map((post) => {
+    const wordCount = post.body?.trim().split(/\s+/).length ?? 0;
+    const readingTimeMinutes = Math.max(1, Math.round(wordCount / WORDS_PER_MINUTE));
+
+    const relatedPosts = posts
+      .filter((p) => p.id !== post.id && p.data.category === post.data.category)
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+      .slice(0, 3)
+      .map((p) => ({
+        id: p.id,
+        title: p.data.title,
+        category: p.data.category,
+        description: p.data.description,
+      }));
+
+    return {
+      params: { slug: post.id },
+      props: { post, readingTimeMinutes, relatedPosts },
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, readingTimeMinutes, relatedPosts } = Astro.props;
 const { Content } = await render(post);
 ---
 
@@ -23,6 +41,8 @@ const { Content } = await render(post);
   category={post.data.category}
   tags={post.data.tags}
   heroImage={post.data.heroImage}
+  readingTimeMinutes={readingTimeMinutes}
+  relatedPosts={relatedPosts}
 >
   <Content />
 </BlogPost>

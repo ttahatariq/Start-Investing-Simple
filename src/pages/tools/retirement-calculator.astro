@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RetirementCalculator from '../../components/RetirementCalculator';
+---
+
+<Layout
+  title="Retirement Savings Calculator"
+  description="Free retirement calculator. Estimate your projected retirement savings and a sustainable withdrawal amount based on your current age, savings, and contributions."
+>
+  <div class="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-brand">Tool<span class="text-orange">/</span></p>
+    <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-paper sm:text-4xl">Retirement Savings Calculator</h1>
+    <p class="mt-3 text-lg text-muted">
+      Estimate how your retirement savings could grow, and get a rough starting estimate for a sustainable annual
+      withdrawal once you get there.
+    </p>
+
+    <div class="mt-8">
+      <RetirementCalculator client:load />
+    </div>
+
+    <div class="prose prose-invert mt-10 max-w-none prose-a:text-brand">
+      <h2>How this calculator works</h2>
+      <p>
+        This tool projects your retirement savings by applying your estimated annual return monthly and adding your
+        monthly contribution, starting from your current savings balance. It then estimates a sustainable first-year
+        withdrawal using the "4% rule" — a commonly referenced (but not guaranteed) starting framework based on
+        historical U.S. market data.
+      </p>
+      <p>
+        For more context on how this framework works and its limitations, read our guide on{' '}
+        <a href="/blog/how-much-do-you-need-to-retire/">how much you actually need to retire</a>.
+      </p>
+    </div>
+  </div>
+</Layout>

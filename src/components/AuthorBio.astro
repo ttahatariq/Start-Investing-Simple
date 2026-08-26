@@ -1,0 +1,30 @@
+---
+interface Props {
+  author: string;
+}
+const { author } = Astro.props;
+
+// Only show the real bio for the site's actual writer; fall back to a generic
+// line for any other byline (e.g. "Start Investing Simple Team").
+const isFounder = author === 'Taha Tariq';
+---
+
+<div class="corner-card mt-10 flex items-start gap-4 rounded-sm bg-surface p-5">
+  <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-brand/10 font-mono text-lg font-bold text-brand">
+    {author.charAt(0)}
+  </div>
+  <div>
+    <p class="text-sm font-semibold text-paper">{author}</p>
+    {isFounder ? (
+      <p class="mt-1 text-sm text-muted">
+        Software engineer and founder of Start Investing Simple. Writes plain-English guides to investing and
+        personal finance for beginners. <a href="/about/" class="text-brand underline">More about Taha &rarr;</a>
+      </p>
+    ) : (
+      <p class="mt-1 text-sm text-muted">
+        Part of the Start Investing Simple team, writing beginner-friendly guides to investing and personal
+        finance. <a href="/about/" class="text-brand underline">More about us &rarr;</a>
+      </p>
+    )}
+  </div>
+</div>

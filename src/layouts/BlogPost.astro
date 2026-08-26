@@ -1,5 +1,14 @@
 ---
 import Layout from './Layout.astro';
+import AuthorBio from '../components/AuthorBio.astro';
+import { categorySlug } from '../lib/category';
+
+interface RelatedPost {
+  id: string;
+  title: string;
+  category: string;
+  description: string;
+}
 
 interface Props {
   title: string;
@@ -10,9 +19,22 @@ interface Props {
   category: string;
   tags: string[];
   heroImage?: string;
+  readingTimeMinutes?: number;
+  relatedPosts?: RelatedPost[];
 }
 
-const { title, description, pubDate, updatedDate, author, category, tags, heroImage } = Astro.props;
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  author,
+  category,
+  tags,
+  heroImage,
+  readingTimeMinutes,
+  relatedPosts = [],
+} = Astro.props;
 
 const formatDate = (date: Date) =>
   date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -40,7 +62,7 @@ const jsonLd = {
     )}
 
     <header class="mb-10 border-b border-line pb-8">
-      <p class="font-mono text-xs uppercase tracking-widest text-brand">{category}<span class="text-orange">/</span></p>
+      <a href={`/category/${categorySlug(category)}/`} class="font-mono text-xs uppercase tracking-widest text-brand hover:underline">{category}<span class="text-orange">/</span></a>
       <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-paper sm:text-4xl">{title}</h1>
       <p class="mt-4 text-lg text-muted">{description}</p>
       <div class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-xs text-muted/70">
@@ -51,6 +73,12 @@ const jsonLd = {
           <>
             <span aria-hidden="true">&middot;</span>
             <time datetime={updatedDate.toISOString()}>Updated {formatDate(updatedDate)}</time>
+          </>
+        )}
+        {readingTimeMinutes && (
+          <>
+            <span aria-hidden="true">&middot;</span>
+            <span>{readingTimeMinutes} min read</span>
           </>
         )}
       </div>
@@ -73,5 +101,25 @@ const jsonLd = {
       investment, tax, or legal advice. Always do your own research or consult a licensed professional before making
       financial decisions. See our full <a href="/disclaimer/" class="text-brand underline">disclaimer</a>.
     </div>
+
+    <AuthorBio author={author} />
   </article>
+
+  {relatedPosts.length > 0 && (
+    <section class="border-t border-line bg-surface">
+      <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6">
+        <h2 class="text-xl font-bold text-paper">
+          Keep <span class="text-muted">reading</span><span class="text-orange">/</span>
+        </h2>
+        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+          {relatedPosts.map((post) => (
+            <a href={`/blog/${post.id}/`} class="corner-card block rounded-sm bg-ink p-5 transition hover:bg-surface-2">
+              <p class="font-mono text-xs uppercase tracking-wide text-brand">{post.category}</p>
+              <h3 class="mt-2 text-sm font-semibold text-paper">{post.title}</h3>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 </Layout>
