@@ -1,0 +1,38 @@
+name: Deploy to RabHost
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy to cPanel via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./dist/
+          # This should be the public web root for startinvestingsimple.com in your
+          # cPanel account — usually public_html/ if it's the primary domain on the
+          # account, or public_html/startinvestingsimple.com/ if it was added as an
+          # addon domain. Check cPanel > Domains to confirm the document root.
+          server-dir: ./public_html/
