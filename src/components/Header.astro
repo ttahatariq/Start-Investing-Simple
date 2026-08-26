@@ -1,4 +1,6 @@
 ---
+import SearchBar from './SearchBar';
+
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/blog/', label: 'Articles' },
@@ -18,33 +20,57 @@ const currentPath = Astro.url.pathname;
       <span>Start Investing Simple<span class="text-brand">/</span></span>
     </a>
 
-    <button
-      id="menu-toggle"
-      class="sm:hidden inline-flex items-center justify-center rounded-sm border border-line p-2 text-paper hover:border-brand"
-      aria-label="Toggle menu"
-      aria-expanded="false"
-      aria-controls="mobile-menu"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-    </button>
+    <div class="flex items-center gap-2 sm:hidden">
+      <button
+        id="search-toggle"
+        class="inline-flex items-center justify-center rounded-sm border border-line p-2 text-paper hover:border-brand"
+        aria-label="Search"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="7" stroke-linecap="round" stroke-linejoin="round" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="m20 20-3.5-3.5" />
+        </svg>
+      </button>
+      <button
+        id="menu-toggle"
+        class="inline-flex items-center justify-center rounded-sm border border-line p-2 text-paper hover:border-brand"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
 
-    <ul class="hidden sm:flex items-center gap-8 font-mono text-xs uppercase tracking-wider text-muted">
-      {navLinks.map((link) => (
-        <li>
-          <a
-            href={link.href}
-            class:list={[
-              'transition-colors hover:text-brand',
-              currentPath === link.href && 'text-brand',
-            ]}
-          >
-            {link.label}
-          </a>
-        </li>
-      ))}
-    </ul>
+    <div class="hidden items-center gap-8 sm:flex">
+      <ul class="flex items-center gap-8 font-mono text-xs uppercase tracking-wider text-muted">
+        {navLinks.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class:list={[
+                'transition-colors hover:text-brand',
+                currentPath === link.href && 'text-brand',
+              ]}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+      <button
+        id="search-toggle-desktop"
+        class="inline-flex items-center justify-center rounded-sm border border-line p-2 text-muted hover:border-brand hover:text-brand"
+        aria-label="Search"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="7" stroke-linecap="round" stroke-linejoin="round" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="m20 20-3.5-3.5" />
+        </svg>
+      </button>
+    </div>
   </nav>
 
   <ul id="mobile-menu" class="hidden sm:hidden flex-col gap-1 border-t border-line px-4 py-3 font-mono text-xs uppercase tracking-wider text-muted">
@@ -56,7 +82,43 @@ const currentPath = Astro.url.pathname;
   </ul>
 </header>
 
+<div id="search-overlay" class="fixed inset-0 z-[60] hidden items-start justify-center bg-ink/90 px-4 pt-24 backdrop-blur-sm">
+  <div class="w-full max-w-lg">
+    <div class="mb-3 flex justify-end">
+      <button id="search-close" class="rounded-sm border border-line p-2 text-muted hover:border-brand hover:text-brand" aria-label="Close search">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    <SearchBar client:load />
+  </div>
+</div>
+
 <script>
+  const overlay = document.getElementById('search-overlay');
+  const closeBtn = document.getElementById('search-close');
+  const openers = [document.getElementById('search-toggle'), document.getElementById('search-toggle-desktop')];
+
+  const open = () => {
+    overlay?.classList.remove('hidden');
+    overlay?.classList.add('flex');
+    overlay?.querySelector('input')?.focus();
+  };
+  const close = () => {
+    overlay?.classList.add('hidden');
+    overlay?.classList.remove('flex');
+  };
+
+  openers.forEach((btn) => btn?.addEventListener('click', open));
+  closeBtn?.addEventListener('click', close);
+  overlay?.addEventListener('click', (e) => {
+    if (e.target === overlay) close();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') close();
+  });
+
   const toggle = document.getElementById('menu-toggle');
   const menu = document.getElementById('mobile-menu');
   toggle?.addEventListener('click', () => {
