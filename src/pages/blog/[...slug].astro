@@ -29,7 +29,10 @@ export async function getStaticPaths() {
 }
 
 const { post, readingTimeMinutes, relatedPosts } = Astro.props;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+
+// Only h2/h3 make sense in a table of contents — h1 is the page title itself.
+const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
 ---
 
 <BlogPost
@@ -43,6 +46,7 @@ const { Content } = await render(post);
   heroImage={post.data.heroImage}
   readingTimeMinutes={readingTimeMinutes}
   relatedPosts={relatedPosts}
+  headings={tocHeadings}
 >
   <Content />
 </BlogPost>
