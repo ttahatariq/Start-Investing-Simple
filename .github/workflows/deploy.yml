@@ -36,4 +36,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: live
-          force_orphan: true
+          # Keep linear history (no force_orphan) so cPanel's Git Version Control
+          # can always fast-forward a plain `git pull` without conflicts.
+          force_orphan: false
+          keep_files: false
