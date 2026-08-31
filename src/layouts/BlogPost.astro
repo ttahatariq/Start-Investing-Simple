@@ -2,6 +2,7 @@
 import Layout from './Layout.astro';
 import AuthorBio from '../components/AuthorBio.astro';
 import TableOfContents from '../components/TableOfContents.astro';
+import ShareButtons from '../components/ShareButtons.astro';
 import { categorySlug } from '../lib/category';
 
 interface RelatedPost {
@@ -48,6 +49,8 @@ const {
 const formatDate = (date: Date) =>
   date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
+const absoluteUrl = new URL(Astro.url.pathname, Astro.site).toString();
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -91,6 +94,10 @@ const jsonLd = {
               <span>{readingTimeMinutes} min read</span>
             </>
           )}
+        </div>
+
+        <div class="mt-6">
+          <ShareButtons url={absoluteUrl} title={title} />
         </div>
 
         <nav aria-label="Table of contents" class="mt-6 rounded-sm border border-line bg-surface p-4 lg:hidden">
