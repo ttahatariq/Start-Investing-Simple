@@ -3,6 +3,7 @@ import Layout from './Layout.astro';
 import AuthorBio from '../components/AuthorBio.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import ShareButtons from '../components/ShareButtons.astro';
+import FAQSection from '../components/FAQSection.astro';
 import { categorySlug } from '../lib/category';
 
 interface RelatedPost {
@@ -10,6 +11,11 @@ interface RelatedPost {
   title: string;
   category: string;
   description: string;
+}
+
+interface FAQ {
+  question: string;
+  answer: string;
 }
 
 interface Heading {
@@ -30,6 +36,7 @@ interface Props {
   readingTimeMinutes?: number;
   relatedPosts?: RelatedPost[];
   headings?: Heading[];
+  faqs?: FAQ[];
 }
 
 const {
@@ -44,6 +51,7 @@ const {
   readingTimeMinutes,
   relatedPosts = [],
   headings = [],
+  faqs = [],
 } = Astro.props;
 
 const formatDate = (date: Date) =>
@@ -129,6 +137,8 @@ const jsonLd = {
         investment, tax, or legal advice. Always do your own research or consult a licensed professional before making
         financial decisions. See our full <a href="/disclaimer/" class="text-brand underline">disclaimer</a>.
       </div>
+
+      <FAQSection faqs={faqs} />
 
       <AuthorBio author={author} />
     </article>

@@ -5,6 +5,17 @@ pubDate: 2026-04-10
 author: "Start Investing Simple Team"
 category: "Retirement Planning"
 tags: ["401k", "retirement", "employer benefits"]
+faqs:
+  - question: "What is a 401(k) in simple terms?"
+    answer: "A 401(k) is a retirement savings account offered through an employer, letting you contribute a portion of your paycheck — often before taxes — into investments that can grow until you withdraw the money in retirement."
+  - question: "What is a 401(k) employer match?"
+    answer: "Many employers match a portion of your own contributions, up to a certain percentage of your salary. This is effectively free money added to your retirement savings and is generally worth contributing enough to capture in full."
+  - question: "Can I lose money in a 401(k)?"
+    answer: "Yes, since the money is invested, typically in stock and bond funds. The balance can go down in value during a market downturn, though it's meant to be held for the long term, where markets have historically trended upward over time."
+  - question: "What happens to my 401(k) if I leave my job?"
+    answer: "You generally have options to leave it with your former employer's plan, roll it into your new employer's plan, or roll it into an IRA — cashing it out is usually the least favorable option due to taxes and penalties."
+  - question: "How much should I contribute to my 401(k)?"
+    answer: "A common starting point is contributing at least enough to receive your full employer match, then increasing your contribution rate over time as your budget allows."
 ---
 
 If you've started a job in the U.S. and been asked whether you want to enroll in "the 401(k)," you're not alone if the details felt unclear. A 401(k) is one of the most common and valuable retirement savings tools available to American workers, but the mechanics are rarely explained clearly. Here's how it actually works.

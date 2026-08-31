@@ -6,6 +6,17 @@ author: "Start Investing Simple Team"
 heroImage: "/img/savings-jar.jpg"
 category: "Saving & Budgeting"
 tags: ["emergency fund", "saving", "budgeting"]
+faqs:
+  - question: "How much should I have in an emergency fund?"
+    answer: "A common benchmark is three to six months of essential living expenses, though the right number depends on your job stability, income variability, and whether others depend on you financially."
+  - question: "Should I invest my emergency fund in the stock market?"
+    answer: "Generally no. Emergency fund money should stay in a safe, easily accessible account, since the stock market can lose value in the short term, right when you might need the cash."
+  - question: "Where's the best place to keep an emergency fund?"
+    answer: "A high-yield savings account is a common choice — it's FDIC-insured, easily accessible, and earns more interest than a typical checking or standard savings account."
+  - question: "Can I start investing before my emergency fund is fully built?"
+    answer: "Many people build a smaller starter fund (like $1,000) first, then split additional savings between finishing the emergency fund and starting to invest, especially if there's a 401(k) employer match available."
+  - question: "What counts as an emergency for this fund?"
+    answer: "Generally unexpected, necessary expenses — job loss, urgent medical bills, essential car or home repairs — rather than planned or discretionary spending, which is better covered by a sinking fund instead."
 ---
 
 It's tempting to jump straight into investing once you learn about compound growth and the potential of the stock market. But before you put money into investments, most financial experts recommend a less exciting — but arguably more important — first step: building an emergency fund.

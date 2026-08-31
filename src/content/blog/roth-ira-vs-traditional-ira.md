@@ -5,6 +5,17 @@ pubDate: 2026-03-05
 author: "Start Investing Simple Team"
 category: "Retirement Planning"
 tags: ["roth ira", "traditional ira", "retirement"]
+faqs:
+  - question: "What's the main difference between a Roth and Traditional IRA?"
+    answer: "A Traditional IRA gives you a tax deduction on contributions now and taxes withdrawals in retirement. A Roth IRA offers no upfront deduction, but qualified withdrawals in retirement are completely tax-free."
+  - question: "Which is better, a Roth or Traditional IRA?"
+    answer: "It depends mainly on whether you expect to be in a higher or lower tax bracket in retirement than you are now. A Roth tends to favor those expecting similar or higher future tax rates; a Traditional IRA tends to favor those expecting a lower rate later."
+  - question: "Are there income limits for Roth IRA contributions?"
+    answer: "Yes, Roth IRAs have income limits that can reduce or eliminate your ability to contribute directly at higher income levels. Traditional IRAs don't limit who can contribute, though the tax deduction can be limited in some cases."
+  - question: "Can I have both a Roth and a Traditional IRA?"
+    answer: "Yes, you can contribute to both in the same year, as long as your combined contributions don't exceed the total annual IRA contribution limit."
+  - question: "Can I withdraw Roth IRA contributions early without penalty?"
+    answer: "Generally yes for your original contributions (not earnings), since you already paid tax on that money — though the specific rules and any exceptions are worth verifying before relying on this."
 ---
 
 An Individual Retirement Account (IRA) is one of the most common tools for retirement saving in the U.S., but the first decision you'll run into is which type to open: **Roth** or **Traditional**. Both let your investments grow tax-advantaged, but the timing of the tax benefit — and a few other rules — differ in ways that matter.

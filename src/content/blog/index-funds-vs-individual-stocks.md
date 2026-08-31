@@ -5,6 +5,17 @@ pubDate: 2026-02-03
 author: "Start Investing Simple Team"
 category: "Investing Basics"
 tags: ["index funds", "stocks", "beginners"]
+faqs:
+  - question: "Are index funds better than individual stocks for beginners?"
+    answer: "For most beginners, yes — index funds offer instant diversification and require far less research than picking individual stocks, and historically most stock pickers, professional and amateur, have underperformed broad index funds after fees."
+  - question: "What is an index fund exactly?"
+    answer: "An index fund is a type of investment that holds a basket of stocks designed to track a market index, like the S&P 500, giving you exposure to hundreds of companies through a single investment."
+  - question: "Can I lose money in an index fund?"
+    answer: "Yes — an index fund still carries market risk and can lose value, especially in the short term. Diversification reduces single-company risk, but it doesn't eliminate overall market risk."
+  - question: "Should I never buy individual stocks then?"
+    answer: "Not necessarily. Some investors use a 'core and explore' approach, keeping most of their portfolio in index funds while allocating a smaller portion to individual stocks they've researched and are comfortable holding."
+  - question: "What fees do index funds charge?"
+    answer: "Index funds typically charge low annual expense ratios, often well under 0.20%, since they don't require active stock-picking decisions — much lower than many actively managed funds."
 ---
 
 One of the first forks in the road every new investor faces is this: should you buy shares of individual companies, or invest in a fund that holds many companies at once? Both approaches can work, but they involve very different levels of effort, risk, and time commitment. Here's how to think about the decision.

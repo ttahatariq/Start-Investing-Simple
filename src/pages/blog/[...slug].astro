@@ -47,6 +47,7 @@ const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
   readingTimeMinutes={readingTimeMinutes}
   relatedPosts={relatedPosts}
   headings={tocHeadings}
+  faqs={post.data.faqs}
 >
   <Content />
 </BlogPost>

@@ -5,6 +5,17 @@ pubDate: 2026-01-15
 author: "Start Investing Simple Team"
 category: "Investing Basics"
 tags: ["compound interest", "beginners", "investing basics"]
+faqs:
+  - question: "What is compound interest in simple terms?"
+    answer: "Compound interest is interest earned on both your original investment and on the interest that investment has already earned, so your money grows faster over time instead of at a fixed, flat rate."
+  - question: "How is compound interest different from simple interest?"
+    answer: "Simple interest is calculated only on your original amount every year. Compound interest is calculated on your original amount plus any interest already earned, so the growth accelerates the longer your money stays invested."
+  - question: "Does compound interest work for debt too?"
+    answer: "Yes — the same mechanism applies to debt, like credit card balances, which is why unpaid interest can make debt grow quickly if only minimum payments are made."
+  - question: "How often does compound interest compound?"
+    answer: "It depends on the investment or account — common compounding frequencies include daily, monthly, quarterly, or annually. More frequent compounding leads to slightly faster growth, all else being equal."
+  - question: "What's the fastest way to benefit from compound interest?"
+    answer: "Starting as early as possible is generally the biggest factor, since time is what allows compounding to build momentum — more so than trying to find the highest possible rate of return."
 ---
 
 If you've spent any time reading about investing, you've probably come across the phrase "compound interest is the eighth wonder of the world" — a line often (and probably incorrectly) attributed to Albert Einstein. Misattributed or not, the idea behind it is one of the most important concepts in personal finance, and understanding it is the first step toward making smarter decisions with your money.
