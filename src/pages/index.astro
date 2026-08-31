@@ -2,9 +2,17 @@
 import Layout from '../layouts/Layout.astro';
 import StockTickerTape from '../components/StockTickerTape.astro';
 import { getCollection } from 'astro:content';
+import { categorySlug } from '../lib/category';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 const latestPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 3);
+
+const stats = [
+  { value: String(allPosts.length) + '+', label: 'Free articles' },
+  { value: '4', label: 'Free calculators' },
+  { value: '100%', label: 'Free, always' },
+  { value: '0%', label: 'Sales pitch' },
+];
 
 const pillars = [
   {
@@ -22,6 +30,13 @@ const pillars = [
     description: 'How 401(k)s, IRAs, and compound growth work together over the long run.',
     accent: 'text-violet',
   },
+];
+
+const tools = [
+  { href: '/tools/compound-interest-calculator/', title: 'Compound Interest', description: 'See how your money could grow over time.' },
+  { href: '/tools/retirement-calculator/', title: 'Retirement Savings', description: 'Project your savings and a sustainable withdrawal.' },
+  { href: '/tools/budget-calculator/', title: '50/30/20 Budget', description: 'Split your income into needs, wants, and savings.' },
+  { href: '/tools/debt-payoff-calculator/', title: 'Debt Payoff', description: 'Compare snowball vs. avalanche for your own debts.' },
 ];
 ---
 
@@ -56,17 +71,14 @@ const pillars = [
 
   <StockTickerTape />
 
-  <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
-    <div class="grid gap-10 sm:grid-cols-[auto_1fr] sm:items-center">
-      <div class="corner-card flex flex-col items-center justify-center rounded-sm bg-surface px-10 py-8">
-        <span class="text-5xl font-extrabold text-brand">0%</span>
-        <span class="mt-1 font-mono text-xs uppercase tracking-wider text-muted">sales pitch</span>
-      </div>
-      <p class="max-w-2xl text-xl leading-relaxed text-paper/90">
-        <span class="text-brand font-semibold">Start Investing Simple</span> breaks down investing and money into
-        plain language, so you can build the confidence to manage your own finances
-        <span class="text-orange">/</span>
-      </p>
+  <section class="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+    <div class="grid grid-cols-2 gap-6 sm:grid-cols-4">
+      {stats.map((stat) => (
+        <div class="corner-card rounded-sm bg-surface px-4 py-6 text-center">
+          <p class="text-3xl font-extrabold text-brand sm:text-4xl">{stat.value}</p>
+          <p class="mt-1 font-mono text-xs uppercase tracking-wider text-muted">{stat.label}</p>
+        </div>
+      ))}
     </div>
   </section>
 
@@ -77,11 +89,47 @@ const pillars = [
       </h2>
       <div class="mt-10 grid gap-6 sm:grid-cols-3">
         {pillars.map((pillar) => (
-          <div class="corner-card rounded-sm bg-ink p-6">
+          <a href={`/category/${categorySlug(pillar.title)}/`} class="corner-card block rounded-sm bg-ink p-6 transition hover:bg-surface-2">
             <h3 class={`text-lg font-semibold ${pillar.accent}`}>{pillar.title}</h3>
             <p class="mt-3 text-sm leading-relaxed text-muted">{pillar.description}</p>
-          </div>
+            <p class="mt-4 font-mono text-xs uppercase tracking-wider text-brand">Browse articles &rarr;</p>
+          </a>
         ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+    <div class="flex items-center justify-between">
+      <h2 class="text-2xl font-bold text-paper">
+        Free <span class="text-muted">calculators</span><span class="text-orange">/</span>
+      </h2>
+      <a href="/tools/" class="font-mono text-xs uppercase tracking-wider text-brand hover:underline">View all &rarr;</a>
+    </div>
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {tools.map((tool) => (
+        <a href={tool.href} class="corner-card block rounded-sm bg-surface p-5 transition hover:bg-surface-2">
+          <p class="font-mono text-xs uppercase tracking-wide text-aqua">Calculator</p>
+          <h3 class="mt-2 text-base font-semibold text-paper">{tool.title}</h3>
+          <p class="mt-2 text-sm text-muted">{tool.description}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="border-y border-line bg-surface">
+    <div class="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+      <div class="corner-card flex flex-col items-start gap-6 rounded-sm bg-ink p-8 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p class="font-mono text-xs uppercase tracking-widest text-brand">Live Data<span class="text-orange">/</span></p>
+          <h2 class="mt-2 text-2xl font-bold text-paper">Track markets in real time</h2>
+          <p class="mt-2 max-w-lg text-sm text-muted">
+            Indices, stocks, bonds, commodities, and forex — updated continuously throughout the trading day, free.
+          </p>
+        </div>
+        <a href="/markets/" class="shrink-0 rounded-sm bg-brand px-6 py-3 font-mono text-sm font-semibold uppercase tracking-wide text-ink hover:bg-brand-dim">
+          View Live Markets
+        </a>
       </div>
     </div>
   </section>
