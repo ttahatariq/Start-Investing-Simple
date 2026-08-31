@@ -3,6 +3,7 @@ title: "What Is a 401(k) and How Does It Actually Work?"
 description: "A plain-English guide to how 401(k) retirement plans work, what employer matching means, and why they're one of the most valuable benefits many workers have access to."
 pubDate: 2026-04-10
 author: "Start Investing Simple Team"
+heroImage: "/img/401k-laptop.jpg"
 category: "Retirement Planning"
 tags: ["401k", "retirement", "employer benefits"]
 faqs:

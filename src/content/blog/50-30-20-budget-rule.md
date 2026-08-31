@@ -3,6 +3,7 @@ title: "The 50/30/20 Budget Rule: A Simple Starting Point for Managing Your Mone
 description: "Learn how the 50/30/20 budgeting rule works, how to apply it to your own income, and where it falls short for some people."
 pubDate: 2026-04-22
 author: "Start Investing Simple Team"
+heroImage: "/img/budget-notebook.jpg"
 category: "Saving & Budgeting"
 tags: ["budgeting", "50/30/20", "saving"]
 ---

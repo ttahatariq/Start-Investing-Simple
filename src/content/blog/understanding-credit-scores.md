@@ -3,6 +3,7 @@ title: "Understanding Credit Scores: What They Are and Why They Matter"
 description: "Learn what a credit score actually measures, what factors influence it, and practical habits for building or improving it over time."
 pubDate: 2026-07-18
 author: "Start Investing Simple Team"
+heroImage: "/img/credit-card.jpg"
 category: "Saving & Budgeting"
 tags: ["credit score", "credit", "personal finance"]
 ---

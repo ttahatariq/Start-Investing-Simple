@@ -3,6 +3,7 @@ title: "How Much Do You Actually Need to Retire?"
 description: "A beginner-friendly look at common frameworks for estimating retirement savings needs, including the 4% rule, and why the honest answer is 'it depends.'"
 pubDate: 2026-05-18
 author: "Start Investing Simple Team"
+heroImage: "/img/retirement-couple.jpg"
 category: "Retirement Planning"
 tags: ["retirement", "4% rule", "retirement planning"]
 ---
