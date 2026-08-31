@@ -1,0 +1,111 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const byId = new Map(allPosts.map((p) => [p.id, p]));
+
+const phases = [
+  {
+    label: 'Phase 1',
+    title: 'Before you invest a single dollar',
+    description: 'Get the foundation right first — this is what makes everything after it actually work.',
+    slugs: [
+      'build-emergency-fund-before-investing',
+      '50-30-20-budget-rule',
+      'needs-vs-wants',
+      'understanding-your-paycheck',
+    ],
+  },
+  {
+    label: 'Phase 2',
+    title: 'Getting started with investing',
+    description: 'The core concepts and the account you actually need to begin.',
+    slugs: [
+      'what-is-a-brokerage-account',
+      'what-is-compound-interest',
+      'index-funds-vs-individual-stocks',
+      'what-is-an-etf',
+    ],
+  },
+  {
+    label: 'Phase 3',
+    title: 'Building real confidence',
+    description: "Understand risk, ride out volatility, and know why you're not doing anything wrong when markets dip.",
+    slugs: [
+      'risk-tolerance-and-asset-allocation',
+      'dollar-cost-averaging',
+      'stocks-vs-bonds',
+      'understanding-market-volatility',
+    ],
+  },
+  {
+    label: 'Phase 4',
+    title: 'Thinking long-term',
+    description: 'Retirement accounts and the bigger picture, once the basics are second nature.',
+    slugs: [
+      'what-is-a-401k',
+      'roth-ira-vs-traditional-ira',
+      'how-much-do-you-need-to-retire',
+    ],
+  },
+];
+
+let counter = 0;
+---
+
+<Layout
+  title="Start Here"
+  description="New to investing? Follow this curated reading path through our most important beginner articles, in the order that actually makes sense."
+>
+  <div class="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-brand">New here?<span class="text-orange">/</span></p>
+    <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-paper sm:text-4xl">Start Here</h1>
+    <p class="mt-4 text-lg text-muted">
+      With 46+ articles on the site, it's easy to not know where to begin. This is the reading path we'd
+      actually recommend — in order, no skipping ahead required.
+    </p>
+
+    <div class="mt-14 space-y-16">
+      {phases.map((phase) => (
+        <section>
+          <p class="font-mono text-xs uppercase tracking-widest text-brand">{phase.label}<span class="text-orange">/</span></p>
+          <h2 class="mt-2 text-2xl font-bold text-paper">{phase.title}</h2>
+          <p class="mt-2 text-muted">{phase.description}</p>
+
+          <ol class="mt-6 space-y-3">
+            {phase.slugs.map((slug) => {
+              const post = byId.get(slug);
+              counter++;
+              if (!post) return null;
+              return (
+                <li>
+                  <a href={`/blog/${slug}/`} class="corner-card group flex items-start gap-4 rounded-sm bg-surface p-5 transition hover:bg-surface-2">
+                    <span class="mt-0.5 font-mono text-sm font-bold text-brand">{String(counter).padStart(2, '0')}</span>
+                    <span>
+                      <span class="block font-semibold text-paper group-hover:text-brand">{post.data.title}</span>
+                      <span class="mt-1 block text-sm text-muted">{post.data.description}</span>
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
+          </ol>
+        </section>
+      ))}
+    </div>
+
+    <div class="corner-card mt-16 rounded-sm bg-surface p-6 text-center">
+      <p class="text-lg font-semibold text-paper">Finished the path?</p>
+      <p class="mt-2 text-muted">Browse all articles by category, or try one of our free calculators.</p>
+      <div class="mt-5 flex flex-wrap items-center justify-center gap-4">
+        <a href="/blog/" class="rounded-sm bg-brand px-6 py-3 font-mono text-sm font-semibold uppercase tracking-wide text-ink hover:bg-brand-dim">
+          Browse All Articles
+        </a>
+        <a href="/tools/" class="rounded-sm border border-line px-6 py-3 font-mono text-sm font-semibold uppercase tracking-wide text-paper hover:border-brand hover:text-brand">
+          Try Our Calculators
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
