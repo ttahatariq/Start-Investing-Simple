@@ -66,4 +66,10 @@ There's no universally "correct" answer — it depends on your current tax situa
 
 Whichever you choose, the biggest factor in building retirement savings is usually **consistency** — contributing regularly over a long period — rather than perfectly optimizing which account type you use.
 
+## A worked example
+
+Consider someone contributing $500/month for 30 years at a 7% average return — roughly $566,000 by the end, before taxes are factored in. In a Traditional IRA, withdrawals in retirement are taxed as ordinary income; at a 15% effective rate, that leaves about $481,000 spendable. In a Roth IRA, that same $566,000 comes out tax-free, since tax was already paid on the contributions going in. The "right" choice hinges on comparing today's tax rate against your realistic guess at your rate in retirement — not on the account labels themselves.
+
+Our free [Retirement Savings Calculator](/tools/retirement-calculator/) can help you project the growth side of this comparison with your own numbers.
+
 This article is educational only and isn't personalized tax or financial advice — contribution limits, income thresholds, and rules can change, so verify current details and consider speaking with a tax professional. See our full [disclaimer](/disclaimer/).

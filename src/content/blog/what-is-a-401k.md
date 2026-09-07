@@ -69,6 +69,12 @@ Most plans offer a range of investment options, from more conservative bond fund
 **What if my employer doesn't offer a match?**
 A 401(k) can still be valuable purely for its tax advantages and the convenience of automatic payroll contributions, even without a match — though if you don't have access to a match, it's worth comparing the investment options and fees in your 401(k) against those available through an IRA, which might offer more flexibility.
 
+## A worked example
+
+Say you earn $60,000/year and contribute 6% ($3,600/year), and your employer matches 50% of that ($1,800/year) — a combined $5,400/year going into your account before any investment growth. Left invested at a 7% average annual return for 30 years, that steady contribution alone (ignoring raises or additional increases) could grow to well over $500,000 — roughly a third of which is money you never would have had at all without the match.
+
+Our free [Retirement Savings Calculator](/tools/retirement-calculator/) lets you project this with your own salary, contribution rate, and timeline.
+
 ## The bottom line
 
 A 401(k) combines automatic saving, tax advantages, and — often — free employer matching money, making it one of the most efficient ways many workers can build long-term retirement savings. If your employer offers a match, contributing enough to capture it is one of the simplest high-value moves in personal finance.

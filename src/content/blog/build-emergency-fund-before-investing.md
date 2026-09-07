@@ -66,6 +66,10 @@ What to generally avoid for an emergency fund:
 4. **Gradually increase** your target toward 3–6 months of expenses.
 5. **Keep it separate** from your everyday checking account so you're not tempted to dip into it for non-emergencies.
 
+## A worked example
+
+Say your essential monthly expenses total $2,500. A 3-month fund means saving $7,500; a 6-month fund means $15,000. Saving $300/month, hitting the 3-month target takes 25 months; the 6-month target takes about 50. That's a meaningful chunk of time either way, which is exactly why many people start with a smaller $1,000 mini-goal first — it's reachable in a few months and covers the most common small emergencies while the fuller target builds in the background. Our free [50/30/20 Budget Calculator](/tools/budget-calculator/) can help you see how much room your current budget actually has for this.
+
 ## Does this mean I can't invest at all until then?
 
 Not necessarily. Many people build their starter emergency fund (e.g., $1,000) first, then split additional savings between finishing the emergency fund and starting to invest — especially if their employer offers a 401(k) match, which is often worth prioritizing early since it's essentially free money. The right balance depends on your income, job stability, and any high-interest debt you may be carrying.

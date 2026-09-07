@@ -57,6 +57,10 @@ It's worth being clear about the limits of this strategy:
 
 Most brokerages and retirement accounts let you set up automatic recurring investments — for example, a fixed dollar amount transferred and invested every payday or every month. Automating this removes the temptation to skip a contribution or try to time the market, which is often the biggest practical benefit of the strategy.
 
+## A worked example
+
+Investing $200/month for 20 years, growing at an average 7% annual return, comes out to roughly $104,000 — despite only $48,000 of that being money you actually put in. The other $56,000 is growth, most of it accumulated in the later years as the balance compounds. See what your own monthly amount and timeline could grow into with our free [Compound Interest Calculator](/tools/compound-interest-calculator/).
+
 ## The bottom line
 
 Dollar-cost averaging won't guarantee better returns than investing a lump sum, but it offers something valuable for many beginners: a way to start investing consistently without needing to predict the market, and without the stress of wondering whether "now" is the right time.

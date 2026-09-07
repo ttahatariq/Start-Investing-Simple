@@ -64,6 +64,12 @@ Regardless of which method you choose:
 - **Avoid taking on new debt** while paying down existing balances, which can undermine your progress.
 - **Consider whether consolidating high-interest debt** (for example, transferring credit card balances to a lower-rate option, if you qualify) could reduce your overall interest costs alongside either payoff method.
 
+## A worked example
+
+Say you're carrying a $2,500 credit card at 24% APR, a $6,000 car loan at 8%, and a $1,200 store card at 28%, with $150/month extra to put toward payoff beyond the minimums. Avalanche would attack the 28% store card first, then the 24% credit card, then the car loan — minimizing total interest paid. Snowball would attack the $1,200 store card first too, in this case, since it happens to have both the smallest balance and the highest rate — but if the numbers were reversed, the two methods would send your extra payment to two completely different debts.
+
+You can run your own actual balances and rates through our free [Debt Payoff Calculator](/tools/debt-payoff-calculator/) to see exactly how many months and how much interest each method saves for your specific situation, rather than a hypothetical one.
+
 ## The bottom line
 
 The debt avalanche method saves more money mathematically; the debt snowball method often produces better follow-through for people who benefit from visible, frequent progress. The "right" choice is the one you'll actually stick with until your debts are paid off.

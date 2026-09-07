@@ -63,6 +63,12 @@ This is also why regularly reviewing and adjusting your retirement plan matters 
 - Have your other expected income sources (Social Security estimates, pension details) changed?
 - Does your current investment mix still match your timeline and risk tolerance?
 
+## A worked example
+
+Suppose you're 30, have $15,000 saved so far, and can contribute $500/month. At an assumed 7% average annual return, that grows to roughly $700,000 by 65 — before accounting for any employer match or raises along the way. Applying the 4% rule to that balance suggests a sustainable starting withdrawal of about $28,000/year. Whether that's enough depends entirely on what your actual expenses look like decades from now, which is precisely why this needs revisiting periodically rather than calculated once and forgotten.
+
+Try your own numbers with our free [Retirement Savings Calculator](/tools/retirement-calculator/) to see a projection based on your actual age, savings, and contribution rate.
+
 ## The bottom line
 
 There's no single dollar figure that applies to everyone — "how much you need to retire" depends on your expected expenses, other income sources, and how long your retirement needs to last. Frameworks like the 4% rule offer a useful starting estimate, but they work best as one input into an ongoing planning process, not a one-time calculation you set and forget.

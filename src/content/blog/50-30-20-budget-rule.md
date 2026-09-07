@@ -58,6 +58,12 @@ Within that 20%, it's worth distinguishing between different goals:
 
 Many financial educators suggest prioritizing an emergency fund and high-interest debt paydown before ramping up other investing, though the right order depends on your specific interest rates and circumstances.
 
+## A worked example
+
+Take a take-home pay of $4,200/month. Under the framework, that splits into roughly $2,100 for needs, $1,260 for wants, and $840 for savings and debt repayment. If your rent, utilities, groceries, and insurance already total $2,600, that's a concrete signal — not a vague feeling — that your needs are running about $500 over the benchmark, which is exactly the kind of gap worth investigating before assuming the problem is your coffee habit.
+
+Plug in your own take-home income with our free [50/30/20 Budget Calculator](/tools/budget-calculator/) to see your actual numbers rather than a hypothetical one.
+
 ## The bottom line
 
 The 50/30/20 rule won't perfectly fit every budget, but it offers a simple, low-effort way to check whether your spending is roughly balanced across essentials, enjoyment, and your financial future — a useful first step for anyone who finds detailed budgeting overwhelming.

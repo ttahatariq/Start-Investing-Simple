@@ -60,4 +60,8 @@ The "right" mix depends heavily on individual circumstances — timeline, risk t
 - Stocks generally offer higher potential long-term returns with more volatility; bonds generally offer more stability with lower potential returns.
 - Most portfolios combine both, with the mix often shifting toward more bonds as a financial goal (like retirement) gets closer.
 
+## A worked example
+
+A portfolio split 80% stocks / 20% bonds behaves very differently from one split 20% stocks / 80% bonds, even holding the same total amount. In a year where stocks drop 20% and bonds hold flat, the stock-heavy portfolio falls about 16% overall, while the bond-heavy one falls only about 4% — but over 30 years of average historical returns, that same stock-heavy portfolio would likely end up meaningfully larger. Neither allocation is "right" in the abstract; it depends entirely on how long you have and how much short-term movement you can tolerate, which is exactly what our [risk tolerance guide](/blog/risk-tolerance-and-asset-allocation/) walks through.
+
 As with everything on this site, this is general information rather than advice tailored to your situation — see our [disclaimer](/disclaimer/).

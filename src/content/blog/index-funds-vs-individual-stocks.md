@@ -63,6 +63,10 @@ That doesn't mean individual stocks are off-limits. Some investors choose a "cor
 
 What doesn't tend to work well is going "all in" on a handful of individual stocks as a complete beginner, based on a tip from social media or a friend, without understanding the company or being prepared for the swings.
 
+## A worked example
+
+Invest $10,000 in a broad index fund earning a 7% average annual return, and it grows to roughly $76,000 over 30 years with no further contributions. Pick five individual stocks instead, and your outcome depends entirely on how those five specific companies perform — you might beat the index fund significantly, or one bankruptcy could wipe out a meaningful chunk of the position. Neither outcome is unusual for concentrated stock-picking; that unpredictability is exactly the risk an index fund is designed to spread out. Try our [Compound Interest Calculator](/tools/compound-interest-calculator/) to see how the index-fund side of that comparison plays out with your own numbers.
+
 ## Where that leaves you
 
 None of this means individual stocks are forbidden or that index funds are magic — it just means the odds favor simplicity for most people starting out. Spreading your risk across hundreds of companies, spending less time researching, and accepting the market's average return has historically beaten the alternative for the vast majority of investors, professional stock pickers included. If you still want to dabble in individual companies later, do it with money you can afford to hold through the ups and downs, on top of an index-fund foundation rather than instead of one.
