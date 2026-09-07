@@ -2,7 +2,7 @@
 title: "How to Automate Your Savings So You Never Have to Think About It"
 description: "Learn practical ways to automate saving and investing, so building wealth doesn't depend on willpower or remembering to transfer money each month."
 pubDate: 2026-09-14
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["automation", "saving", "money habits"]
 ---
@@ -14,6 +14,8 @@ One of the most reliable predictors of whether someone actually builds savings o
 Manual saving requires you to make the same decision repeatedly — every payday, you have to consciously choose to move money into savings instead of spending it. Over months and years, that repeated decision-making creates countless opportunities to skip it "just this once," which quietly adds up.
 
 Automation flips the default: instead of needing to remember to save, you'd need to actively remember to stop the transfer to *not* save. This is the same underlying principle behind the [pay-yourself-first](/blog/budgeting-methods-that-actually-work/) budgeting approach — treating savings as a non-negotiable, automatic outcome rather than whatever happens to be left over.
+
+I put this off for longer than I'd like to admit, mostly because manually moving money "whenever I got around to it" felt like it should be good enough. It wasn't — some months it just didn't happen, for no reason more interesting than being busy. Setting up the transfer once took about five minutes and quietly solved a problem I'd been failing to solve through sheer willpower for months.
 
 ## Practical ways to automate your finances
 

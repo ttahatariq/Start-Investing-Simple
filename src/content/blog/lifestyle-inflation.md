@@ -2,7 +2,7 @@
 title: "Lifestyle Inflation: Why Earning More Doesn't Always Mean Saving More"
 description: "Learn what lifestyle inflation is, why it quietly prevents people from building wealth even as their income grows, and practical ways to avoid it."
 pubDate: 2026-09-18
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["lifestyle inflation", "saving", "money habits"]
 ---
@@ -14,6 +14,8 @@ It's a common assumption that a raise or a higher-paying job automatically leads
 Lifestyle inflation (sometimes called "lifestyle creep") is the tendency for spending to rise in step with income, so that each raise or bonus gets absorbed into a slightly more expensive lifestyle — a nicer apartment, more frequent dining out, upgraded subscriptions, a newer car — rather than translating into increased savings.
 
 It's rarely a single dramatic decision. It tends to happen gradually, one small upgrade at a time, each of which feels reasonable and affordable in isolation.
+
+I noticed this most clearly moving from freelance client work to a full-time developer role — a real, meaningful jump in income, and one that I could feel giving me permission to spend more without ever consciously deciding to. Looking back at that period, most of the "upgrades" weren't things I'd actually chosen; they were just things that quietly became the new normal.
 
 ## Why it happens
 

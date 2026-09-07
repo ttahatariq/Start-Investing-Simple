@@ -2,7 +2,7 @@
 title: "What Is Compound Interest and Why It's Called the Eighth Wonder of the World"
 description: "A plain-English explanation of how compound interest works, why time matters more than the amount you invest, and how to use it to your advantage."
 pubDate: 2026-01-15
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["compound interest", "beginners", "investing basics"]
 faqs:
@@ -43,6 +43,8 @@ One of the most counterintuitive things about compound interest is that **how lo
 - **Late Liam** waits until age 35 to start, then invests $200/month every year until age 65 (30 years, $72,000 total invested).
 
 Assuming a 7% average annual return, Emma — who invested a third as much money — ends up with **more** at retirement than Liam, simply because her money had an extra decade to compound. This is why financial advisors constantly repeat the same advice: start now, even with small amounts.
+
+This is the one chart that actually changed how I think about money. As a software engineer, I'm used to systems where effort in equals output out, roughly proportionally. Compounding doesn't work that way — the "output" is backloaded so heavily toward the end that the early years feel almost pointless while you're living through them. Emma's decade of contributions probably didn't feel like it was doing much at the time. That's the part nobody tells you: the payoff is invisible for a long time before it isn't.
 
 ## The three ingredients of compounding
 

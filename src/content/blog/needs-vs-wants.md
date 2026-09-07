@@ -2,12 +2,14 @@
 title: "Needs vs. Wants: How to Tell the Difference When Money Is Tight"
 description: "Learn a practical framework for distinguishing needs from wants when budgeting, especially when income doesn't stretch as far as you'd like."
 pubDate: 2026-10-20
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["needs vs wants", "budgeting", "money habits"]
 ---
 
 Nearly every budgeting framework — including the [50/30/20 rule](/blog/50-30-20-budget-rule/) — relies on distinguishing "needs" from "wants." In theory, this sounds simple. In practice, especially when money is tight, the line can feel genuinely blurry.
+
+During a stretch of freelance work where my income swung noticeably month to month, this distinction stopped being theoretical fairly quickly. On a slow month, things I'd been treating as fixed costs turned out to have a lot more flexibility in them than I'd assumed — I just hadn't been forced to look closely before.
 
 ## A basic definition
 

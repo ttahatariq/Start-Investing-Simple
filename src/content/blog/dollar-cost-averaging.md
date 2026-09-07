@@ -2,7 +2,7 @@
 title: "What Is Dollar-Cost Averaging? A Simple Strategy for Nervous Investors"
 description: "Learn how dollar-cost averaging works, why it helps reduce the stress of market timing, and how it compares to investing a lump sum all at once."
 pubDate: 2026-03-15
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["dollar-cost averaging", "beginners", "investing basics"]
 ---
@@ -34,6 +34,8 @@ Notice that when the price dropped to $16 in month 2, your fixed $200 bought *mo
 2. **Builds a consistent habit.** Automating a fixed contribution each month turns investing into a routine rather than a decision you have to make (and potentially talk yourself out of) every time.
 3. **Reduces emotional decision-making.** Investing a lump sum right before a market drop can be discouraging and may tempt people to panic-sell. Spreading purchases out can soften that emotional impact.
 4. **Works well for ongoing income.** If you're investing out of each paycheck rather than a windfall, DCA isn't really an alternative strategy — it's simply how investing from regular income naturally works.
+
+I set up my first automated transfer mostly because I didn't trust myself to actually click "invest" manually every month — I knew I'd second-guess it the moment there was any bad news in the headlines. A few years in, I honestly couldn't tell you what the market was doing on most of the days my money went in. That's arguably the best evidence that the system was working as intended.
 
 ## Dollar-cost averaging vs. investing a lump sum
 

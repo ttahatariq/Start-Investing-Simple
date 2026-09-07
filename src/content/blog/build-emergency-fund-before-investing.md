@@ -2,7 +2,7 @@
 title: "Why You Should Build an Emergency Fund Before You Start Investing"
 description: "Learn why financial experts recommend saving an emergency fund first, how much to save, and where to keep it."
 pubDate: 2026-02-20
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 heroImage: "/img/savings-jar.jpg"
 category: "Saving & Budgeting"
 tags: ["emergency fund", "saving", "budgeting"]
@@ -69,6 +69,8 @@ What to generally avoid for an emergency fund:
 ## Does this mean I can't invest at all until then?
 
 Not necessarily. Many people build their starter emergency fund (e.g., $1,000) first, then split additional savings between finishing the emergency fund and starting to invest — especially if their employer offers a 401(k) match, which is often worth prioritizing early since it's essentially free money. The right balance depends on your income, job stability, and any high-interest debt you may be carrying.
+
+A cracked laptop screen is what did it for me — not exactly a dramatic financial emergency, but the kind of unglamorous, badly-timed expense that shows up eventually for everyone. Because I'd already set aside a cushion, replacing it was annoying, not destabilizing. That's really the whole point of this fund: not preventing bad luck, just making sure bad luck doesn't turn into a crisis.
 
 ## The bottom line
 
