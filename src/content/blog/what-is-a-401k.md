@@ -75,6 +75,16 @@ Say you earn $60,000/year and contribute 6% ($3,600/year), and your employer mat
 
 Our free [Retirement Savings Calculator](/tools/retirement-calculator/) lets you project this with your own salary, contribution rate, and timeline.
 
+## Go deeper
+
+This article covers the basics — a few related questions worth reading once those click:
+
+- [How much should you contribute at your age?](/blog/how-much-to-contribute-to-401k-by-age/)
+- [Should you max it out?](/blog/should-you-max-out-your-401k/)
+- [What happens to vesting if you leave your job early?](/blog/401k-vesting-schedules-explained/)
+- [What are you actually paying in fees?](/blog/401k-fees-what-youre-actually-paying/)
+- [Work for a school, nonprofit, or government agency? See 403(b) vs. 401(k)](/blog/403b-vs-401k/)
+
 ## The bottom line
 
 A 401(k) combines automatic saving, tax advantages, and — often — free employer matching money, making it one of the most efficient ways many workers can build long-term retirement savings. If your employer offers a match, contributing enough to capture it is one of the simplest high-value moves in personal finance.
