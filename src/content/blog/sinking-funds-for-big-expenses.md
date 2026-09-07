@@ -55,4 +55,4 @@ The real value of a sinking fund isn't just the money itself — it's removing t
 
 Sinking funds bridge the gap between "monthly budget" and "true emergency," covering the predictable-but-irregular expenses that often catch people off guard simply because they don't happen every month. A small amount of planning — estimating the cost and dividing by the months until it's due — can turn a stressful expense into one you've already comfortably paid for in advance.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+We're explaining how things work, not telling you what to do with your own money. More on that in our [disclaimer](/disclaimer/).

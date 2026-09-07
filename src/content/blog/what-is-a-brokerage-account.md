@@ -58,4 +58,4 @@ Many brokerages now offer **fractional shares**, letting you buy a portion of a 
 - Look for low fees, the investment options you want, and a platform you find easy to use.
 - Fractional shares have made it easier than ever to start investing with a small amount of money.
 
-This article is for educational purposes only and isn't personalized investment advice — see our full [disclaimer](/disclaimer/).
+Treat this as background, not a personal recommendation — our [disclaimer](/disclaimer/) explains why.

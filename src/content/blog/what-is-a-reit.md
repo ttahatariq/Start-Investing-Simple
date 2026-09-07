@@ -52,11 +52,11 @@ Most investors gain REIT exposure through:
 
 Non-traded REITs also exist, but they come with less liquidity and less transparency than publicly traded options, and generally require more caution and due diligence.
 
-## Key takeaways
+## The short version
 
 - REITs let you invest in real estate through the stock market, without directly owning or managing property.
 - They're required to distribute most of their taxable income as dividends, making them a common income-focused investment.
 - REITs carry their own risks, including interest rate sensitivity and sector-specific downturns.
 - A REIT-focused ETF offers diversified real estate exposure without needing to research individual REIT companies.
 
-This article is for educational purposes only and isn't personalized investment or tax advice — see our full [disclaimer](/disclaimer/).
+This is general education, not advice built around your specific situation. See the [disclaimer](/disclaimer/) for more.

@@ -53,4 +53,4 @@ The Social Security Administration provides tools to view your earnings history 
 
 Social Security benefits are based on your lifetime earnings history, and the age at which you claim significantly affects your monthly payment for the rest of your life. There's no universally "correct" claiming age — it depends on your health, other income, and personal circumstances — but understanding how the trade-offs work is an important part of a complete retirement plan.
 
-This article is for educational purposes only and isn't personalized financial or retirement advice — program rules and figures change over time, so verify current details directly with the Social Security Administration or a qualified advisor. See our full [disclaimer](/disclaimer/).
+For guidance specific to your own circumstances, talk to a licensed professional — this is educational content. See our [disclaimer](/disclaimer/).

@@ -48,4 +48,4 @@ There's essentially no reason to leave emergency fund money in a near-zero-inter
 
 A high-yield savings account offers a simple, low-effort improvement for money that needs to stay safe and accessible — most notably an emergency fund. There's little reason to leave that money earning minimal interest in a traditional account when an equally safe, insured alternative is readily available.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+This is educational content, not a substitute for professional advice suited to your own circumstances — read our full [disclaimer](/disclaimer/).

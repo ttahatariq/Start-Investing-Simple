@@ -41,11 +41,11 @@ Since a split doesn't change underlying value, and as discussed in our guide on 
 
 If you already own shares when a split occurs, your total investment value doesn't change — you simply end up with more shares at a proportionally lower price each. No action is typically required from shareholders; the adjustment happens automatically in your brokerage account.
 
-## Key takeaways
+## Putting it together
 
 - A stock split increases the number of shares and proportionally decreases the price per share, without changing the company's total value or your ownership stake.
 - Splits are often done to improve perceived accessibility or signal confidence, not because of any change in underlying business fundamentals.
 - Reverse splits work in the opposite direction and are sometimes (not always) associated with a company trying to meet exchange listing requirements after a price decline.
 - Share price alone — before or after a split — isn't a meaningful measure of value on its own.
 
-This article is for educational purposes only and isn't personalized investment advice — see our full [disclaimer](/disclaimer/).
+This is educational content, not a substitute for professional advice suited to your own circumstances — read our full [disclaimer](/disclaimer/).

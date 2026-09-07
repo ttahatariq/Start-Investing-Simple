@@ -42,10 +42,10 @@ Many personal finance conversations focus heavily on income growth and investing
 
 A common mistake: successfully negotiating a lower bill, only to have that freed-up money quietly absorbed into other spending without a deliberate plan — a small-scale version of the [lifestyle inflation](/blog/lifestyle-inflation/) pattern. To make negotiated savings actually matter long-term, consider redirecting the freed-up amount directly into [automated savings or investing](/blog/automate-your-savings/), rather than letting it blend back into general spending unnoticed.
 
-## Key takeaways
+## In short
 
 - Many recurring bills, especially internet, cable, insurance, and subscriptions, have more negotiation room than advertised pricing suggests.
 - Researching competitor rates and speaking with a retention department, rather than general customer service, tends to yield better results.
 - Negotiated savings only compound in your favor if deliberately redirected toward a goal, rather than quietly absorbed into other spending.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+We're explaining how things work, not telling you what to do with your own money. More on that in our [disclaimer](/disclaimer/).

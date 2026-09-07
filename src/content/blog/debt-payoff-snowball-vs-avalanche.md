@@ -68,4 +68,4 @@ Regardless of which method you choose:
 
 The debt avalanche method saves more money mathematically; the debt snowball method often produces better follow-through for people who benefit from visible, frequent progress. The "right" choice is the one you'll actually stick with until your debts are paid off.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+Take this as a starting point for your own research, not a professional recommendation. See our [disclaimer](/disclaimer/) for specifics.

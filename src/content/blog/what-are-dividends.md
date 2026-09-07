@@ -49,11 +49,11 @@ No. A company's board of directors decides whether to pay a dividend, and how mu
 
 In a standard (non-retirement) brokerage account, dividends are usually taxable in the year you receive them, even if you reinvest them automatically rather than taking the cash. Dividends held in tax-advantaged retirement accounts, like a 401(k) or IRA, are typically not taxed in the year received, though withdrawal rules for those accounts still apply. Tax treatment can vary and change over time, so it's worth checking current rules or speaking with a tax professional for your specific situation.
 
-## Key takeaways
+## In short
 
 - Dividends are a portion of a company's profits paid out to shareholders, typically on a regular schedule.
 - Dividend yield lets you compare dividend payments across stocks as a percentage of share price — but an unusually high yield deserves scrutiny, not automatic enthusiasm.
 - Reinvesting dividends lets them compound over time, similar to reinvesting any other investment return.
 - Dividends are not guaranteed and can be reduced or eliminated by a company's board.
 
-This article is for educational purposes only and isn't personalized investment or tax advice — see our full [disclaimer](/disclaimer/).
+This is meant to help you understand the topic, not to tell you what to do with your own money — see our [disclaimer](/disclaimer/) for the full picture.

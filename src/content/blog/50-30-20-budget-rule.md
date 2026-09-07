@@ -62,4 +62,4 @@ Many financial educators suggest prioritizing an emergency fund and high-interes
 
 The 50/30/20 rule won't perfectly fit every budget, but it offers a simple, low-effort way to check whether your spending is roughly balanced across essentials, enjoyment, and your financial future — a useful first step for anyone who finds detailed budgeting overwhelming.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+Nothing here is personalized financial advice — just general education. Read our full [disclaimer](/disclaimer/) for the details.

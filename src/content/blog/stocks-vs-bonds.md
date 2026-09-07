@@ -54,10 +54,10 @@ This is the logic behind "target-date funds," which automatically adjust their s
 
 The "right" mix depends heavily on individual circumstances — timeline, risk tolerance, and other income sources — so there's no single ratio that fits everyone.
 
-## Key takeaways
+## The short version
 
 - Stocks represent ownership in a company; bonds represent a loan to an issuer.
 - Stocks generally offer higher potential long-term returns with more volatility; bonds generally offer more stability with lower potential returns.
 - Most portfolios combine both, with the mix often shifting toward more bonds as a financial goal (like retirement) gets closer.
 
-This article is for educational purposes only and isn't personalized investment advice — see our full [disclaimer](/disclaimer/).
+As with everything on this site, this is general information rather than advice tailored to your situation — see our [disclaimer](/disclaimer/).

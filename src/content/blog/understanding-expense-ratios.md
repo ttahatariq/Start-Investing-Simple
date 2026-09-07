@@ -51,11 +51,11 @@ While expense ratios are often the most significant ongoing cost, also be aware 
 
 For a core, long-term holding like a broad-market index fund, prioritizing a low expense ratio is generally a sound default — since you're not paying for the potential of market-beating performance, only for low-cost, diversified exposure to the market's overall returns.
 
-## Key takeaways
+## Quick recap
 
 - An expense ratio is an annual fee, automatically deducted, expressed as a percentage of your investment.
 - Small differences in expense ratios compound into meaningfully large differences over long time horizons.
 - Broad index funds and ETFs typically offer the lowest expense ratios; actively managed funds typically charge more.
 - Always check a fund's expense ratio before investing — it's one of the most controllable factors in your long-term investment returns.
 
-This article is for educational purposes only and isn't personalized investment advice — see our full [disclaimer](/disclaimer/).
+We write to inform, not to advise on your specific situation. See the [disclaimer](/disclaimer/) for the fine print.

@@ -46,4 +46,4 @@ Minimum payments are, by design, calculated to be affordable in the short term �
 
 Paying only the minimum on credit card debt is one of the most expensive ways to manage a balance, often extending repayment for years and multiplying the total cost through compounding interest. Even a modest increase above the minimum payment — directed consistently — can meaningfully shorten that timeline and reduce the total interest paid.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+Take this as a starting point for your own research, not a professional recommendation. See our [disclaimer](/disclaimer/) for specifics.

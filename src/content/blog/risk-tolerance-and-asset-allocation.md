@@ -62,4 +62,4 @@ Your risk tolerance and capacity can change over time — as your income changes
 
 Risk tolerance and asset allocation are deeply personal — there's no single "right" portfolio mix that applies to everyone with the same goal. Understanding your own capacity and comfort with risk, honestly, is often more valuable than chasing a theoretically optimal allocation you won't actually stick with when markets get rocky.
 
-This article is for educational purposes only and isn't personalized investment advice — consider speaking with a licensed financial advisor about your specific situation. See our full [disclaimer](/disclaimer/).
+We're not your financial advisor — just explaining how this works. Full [disclaimer](/disclaimer/) here.

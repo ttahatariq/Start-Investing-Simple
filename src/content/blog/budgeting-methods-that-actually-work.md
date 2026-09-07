@@ -57,4 +57,4 @@ These methods aren't mutually exclusive. A common combination: **pay-yourself-fi
 
 Almost any reasonable budgeting method will outperform no budgeting at all, as long as it's one you actually maintain. It's common — and fine — to try a method, adjust it, or switch entirely after a few months once you learn more about your own habits. The goal isn't finding a perfect system on the first try; it's building a sustainable habit of intentionally directing your money rather than wondering where it went.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+As with everything on this site, this is general information rather than advice tailored to your situation — see our [disclaimer](/disclaimer/).

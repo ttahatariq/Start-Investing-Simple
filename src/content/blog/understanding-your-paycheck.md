@@ -52,11 +52,11 @@ Reviewing this breakdown periodically — not just glancing at the final deposit
 
 Your federal (and sometimes state) tax withholding is generally based on elections you make, often through a form completed when you're hired or updated later. Withholding too much results in a larger tax refund but means less money in each regular paycheck throughout the year; withholding too little can mean a smaller paycheck impact now but a potential tax bill (and possibly a penalty) later. Adjusting your withholding to more closely match your actual expected tax liability, rather than significantly over- or under-withholding, is generally a reasonable goal, though specifics depend on your individual tax situation.
 
-## Key takeaways
+## Where this leaves you
 
 - Gross pay is your total earnings before deductions; net pay is what actually reaches your bank account.
 - Common deductions include taxes, retirement contributions, and insurance premiums — many of which reduce your taxable income when paid pre-tax.
 - Budget based on your actual net pay, not your gross salary, to avoid a budget that consistently feels like it doesn't balance.
 - Reviewing your pay stub periodically helps you understand and verify exactly where your gross pay is going.
 
-This article is for educational purposes only and isn't personalized tax or financial advice — see our full [disclaimer](/disclaimer/).
+Consider this a starting point for further research rather than a directive — our full [disclaimer](/disclaimer/) has the specifics.

@@ -49,4 +49,4 @@ The IRS sets annual contribution limits for HSAs, which are adjusted periodicall
 
 For people who have access to a qualifying health plan and can afford to pay current medical costs out of pocket, an HSA can function as a powerful supplemental retirement account — combining a tax deduction now, tax-free growth, and (for qualified medical expenses) tax-free withdrawals later, a combination no other common account offers.
 
-This article is for educational purposes only and isn't personalized financial or tax advice — eligibility rules and contribution limits change over time, so verify current details or consult a tax professional. See our full [disclaimer](/disclaimer/).
+This isn't a recommendation — it's context to help you make your own informed decision. Full [disclaimer](/disclaimer/) here.

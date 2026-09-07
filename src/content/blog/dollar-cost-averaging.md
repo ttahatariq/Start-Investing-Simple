@@ -59,4 +59,4 @@ Most brokerages and retirement accounts let you set up automatic recurring inves
 
 Dollar-cost averaging won't guarantee better returns than investing a lump sum, but it offers something valuable for many beginners: a way to start investing consistently without needing to predict the market, and without the stress of wondering whether "now" is the right time.
 
-This article is for educational purposes only and isn't personalized investment advice — see our full [disclaimer](/disclaimer/).
+None of this is personalized advice — for that, talk to a licensed professional. Our [disclaimer](/disclaimer/) has more detail.

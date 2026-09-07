@@ -52,11 +52,11 @@ For those who are charitably inclined, some retirement account holders subject t
 
 Understanding RMDs matters even before you're close to the age they apply, because they affect longer-term planning decisions — for example, some people use [Roth conversions](/blog/roth-ira-vs-traditional-ira/) earlier in retirement (converting Traditional retirement funds to a Roth, paying tax at conversion) partly to reduce the size of future RMDs and the tax bill they'll eventually trigger.
 
-## Key takeaways
+## In short
 
 - RMDs are mandatory annual withdrawals from certain tax-deferred retirement accounts, starting at an age set by current law.
 - Roth IRAs are exempt from RMDs during the original owner's lifetime; Traditional IRAs and 401(k)s generally are not.
 - The required amount is based on your account balance and an IRS life expectancy factor, and often calculated for you by your plan or brokerage.
 - Missing an RMD can trigger a significant penalty, so it's important to stay on top of the current rules as you approach the relevant age.
 
-This article is for educational purposes only and isn't personalized tax or financial advice — RMD ages, calculations, and penalties are governed by current law, which changes over time, so verify up-to-date details with a tax professional or the IRS directly. See our full [disclaimer](/disclaimer/).
+This piece is meant to inform, not to replace a conversation with a qualified advisor about your own situation — details in our [disclaimer](/disclaimer/).

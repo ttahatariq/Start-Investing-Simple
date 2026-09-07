@@ -44,11 +44,11 @@ Someone who begins maximizing both standard and catch-up contributions starting 
 
 Catch-up contributions are an opportunity, not an obligation — many people aren't in a financial position to max out even standard contribution limits, let alone additional catch-up amounts, and that's a normal, common situation. The broader principles covered in our guide on [how much you need to retire](/blog/how-much-do-you-need-to-retire/) — focusing on your own achievable savings rate and gradually increasing it over time — matter more than reaching any specific contribution ceiling.
 
-## Key takeaways
+## The short version
 
 - Catch-up contributions let people 50 and older contribute more than standard limits to 401(k)s and IRAs.
 - This provision exists partly because many people have more capacity to save later in their careers, after earlier financial obligations ease.
 - Catch-up contributions can generally go to either Traditional or Roth accounts, following the same considerations as standard contributions, though some newer rules apply additional requirements for certain income levels.
 - Contribution limits change periodically — always verify current figures rather than relying on older information.
 
-This article is for educational purposes only and isn't personalized tax or financial advice — verify current contribution limits and rules with a tax professional or plan administrator. See our full [disclaimer](/disclaimer/).
+This isn't a recommendation — it's context to help you make your own informed decision. Full [disclaimer](/disclaimer/) here.

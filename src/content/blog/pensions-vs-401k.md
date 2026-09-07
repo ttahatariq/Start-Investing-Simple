@@ -47,10 +47,10 @@ Because most private-sector workers today won't have a traditional pension, reti
 - Understanding and using [IRAs](/blog/roth-ira-vs-traditional-ira/) as an additional savings vehicle
 - Building a broader financial plan that doesn't assume a guaranteed employer benefit, as covered in our guide on [how much you need to retire](/blog/how-much-do-you-need-to-retire/)
 
-## Key takeaways
+## Where this leaves you
 
 - Traditional pensions guarantee a specific retirement benefit and place investment risk on the employer; 401(k)s place that risk and responsibility on the employee.
 - Private-sector pensions have become considerably less common, while 401(k)-style plans have become the dominant retirement benefit.
 - This shift means individuals today generally need more active involvement in retirement planning and investment decisions than earlier generations did.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+General education only, not a personal recommendation — our [disclaimer](/disclaimer/) explains what that means in practice.

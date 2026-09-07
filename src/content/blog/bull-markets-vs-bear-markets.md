@@ -57,4 +57,4 @@ While the terms are most commonly used for stock markets, they can apply to othe
 - Bull and bear market durations vary significantly and aren't predictable in advance.
 - Long-term investors generally benefit more from maintaining a well-matched asset allocation than from trying to react to bull/bear market declarations in the news.
 
-This article is for educational purposes only and isn't personalized investment advice — past market patterns are not a guarantee of future results. See our full [disclaimer](/disclaimer/).
+This is meant to help you understand the topic, not to tell you what to do with your own money — see our [disclaimer](/disclaimer/) for the full picture.

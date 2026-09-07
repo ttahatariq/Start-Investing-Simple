@@ -40,11 +40,11 @@ If a debt's interest rate is low relative to reasonably expected investment retu
 
 Rather than treating this as strictly all-or-nothing, many people find success with a hybrid approach: continuing minimum payments on lower-interest debt while splitting extra money between additional debt payoff and investing — capturing at least some benefit from both priorities simultaneously, rather than fully delaying one until the other is completely finished.
 
-## Key takeaways
+## Putting it together
 
 - Compare your debt's interest rate to your reasonably expected investment return as a starting framework, prioritizing high-interest debt payoff and any available employer 401(k) match first.
 - Low-interest debt (like many mortgages) is a closer call, where personal risk tolerance and preference for reduced financial obligations reasonably factor in alongside the pure numbers.
 - Debt payoff offers a guaranteed outcome, while investment returns are never guaranteed — a meaningful difference beyond simple interest rate comparisons.
 - A hybrid approach, splitting extra money between debt payoff and investing, is a reasonable middle ground for many people.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+This is educational content, not a substitute for professional advice suited to your own circumstances — read our full [disclaimer](/disclaimer/).

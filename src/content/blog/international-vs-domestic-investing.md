@@ -38,11 +38,11 @@ Many financial professionals suggest that a reasonable, moderate approach is to 
 - **International index funds or ETFs**: Broad funds covering developed international markets, emerging markets, or a combination of both, offering diversified exposure in a single fund — similar in structure to the [ETFs](/blog/what-is-an-etf/) covered in our earlier guide.
 - **Total world index funds**: Some funds combine domestic and international exposure into a single fund weighted by global market size, offering broad diversification without needing to manage separate domestic and international allocations yourself.
 
-## Key takeaways
+## What to remember
 
 - Home country bias is common but not necessarily optimal — it reflects familiarity more than a deliberate diversification strategy.
 - International diversification spreads risk across multiple economies, though it introduces currency risk as an additional variable.
 - No single approach (all-domestic, or heavily international) has consistently outperformed across all historical periods.
 - A blended approach, combining domestic and international exposure, is a reasonable way to capture diversification benefits without needing to predict which region will perform best.
 
-This article is for educational purposes only and isn't personalized investment advice — see our full [disclaimer](/disclaimer/).
+Take this as a starting point for your own research, not a professional recommendation. See our [disclaimer](/disclaimer/) for specifics.

@@ -55,11 +55,11 @@ Not all ETFs are created equal, and "it's an ETF" doesn't automatically mean "it
 
 For most beginners, a broad-market ETF tracking a major index (like the total U.S. stock market or the S&P 500) offers a simple, low-cost, diversified starting point — the same idea covered in our [index funds vs. individual stocks](/blog/index-funds-vs-individual-stocks/) guide, just accessed through the ETF structure specifically.
 
-## Key takeaways
+## Quick recap
 
 - An ETF is a basket of investments that trades on an exchange throughout the day, like a stock.
 - ETFs often offer lower costs and more flexibility than traditional mutual funds.
 - Not all ETFs are simple, low-cost, diversified funds — check the expense ratio and actual holdings before investing.
 - A broad-market index ETF is a common, straightforward starting point for beginners.
 
-This article is for educational purposes only and isn't personalized investment advice — see our full [disclaimer](/disclaimer/).
+We're explaining how things work, not telling you what to do with your own money. More on that in our [disclaimer](/disclaimer/).

@@ -53,4 +53,4 @@ Someone starting to save seriously at 35 with a clear, consistent plan can end u
 
 Generic savings benchmarks by age can offer a rough sense of general direction, but they're built on broad assumptions that don't fit everyone. A more meaningful measure of progress is whether your own savings rate and plan are moving in the right direction over time, based on your actual goals and circumstances — not whether you match a number designed for a hypothetical "typical" person.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+General education only, not a personal recommendation — our [disclaimer](/disclaimer/) explains what that means in practice.

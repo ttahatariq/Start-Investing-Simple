@@ -58,4 +58,4 @@ None of these figures should be evaluated in isolation. A high P/E ratio might b
 - Dividend yield, 52-week range, volume, and beta each provide one piece of a larger picture — no single number tells the whole story.
 - Comparing figures across similar companies, and understanding the underlying business, generally beats relying on any single metric in isolation.
 
-This article is for educational purposes only and isn't personalized investment advice — see our full [disclaimer](/disclaimer/).
+As with everything on this site, this is general information rather than advice tailored to your situation — see our [disclaimer](/disclaimer/).

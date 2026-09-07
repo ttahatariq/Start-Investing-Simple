@@ -49,4 +49,4 @@ As covered in our guide on [risk tolerance and asset allocation](/blog/risk-tole
 
 Market volatility is a normal, expected feature of investing — not a sign that something has gone wrong. Historically, investors who stayed invested through downturns have generally fared better than those who tried to time their way around them. Understanding this distinction between temporary volatility and permanent loss is one of the most valuable mental tools a long-term investor can have.
 
-This article is for educational purposes only and isn't personalized investment advice — past market recoveries are not a guarantee of future results. See our full [disclaimer](/disclaimer/).
+This piece is meant to inform, not to replace a conversation with a qualified advisor about your own situation — details in our [disclaimer](/disclaimer/).

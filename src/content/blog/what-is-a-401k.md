@@ -73,4 +73,4 @@ A 401(k) can still be valuable purely for its tax advantages and the convenience
 
 A 401(k) combines automatic saving, tax advantages, and — often — free employer matching money, making it one of the most efficient ways many workers can build long-term retirement savings. If your employer offers a match, contributing enough to capture it is one of the simplest high-value moves in personal finance.
 
-This article is for educational purposes only and isn't personalized financial or tax advice — plan rules, contribution limits, and vesting schedules vary and change over time. See our full [disclaimer](/disclaimer/).
+General education only, not a personal recommendation — our [disclaimer](/disclaimer/) explains what that means in practice.

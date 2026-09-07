@@ -48,11 +48,11 @@ What counts as a genuine need can reasonably differ based on individual circumst
 
 None of this means wants are inherently wasteful or should be eliminated entirely. As covered in our guide on [budgeting methods](/blog/budgeting-methods-that-actually-work/), frameworks like the 50/30/20 rule explicitly allocate room for wants, recognizing that a budget with zero discretionary spending is rarely sustainable long-term. The goal is clarity about which spending is genuinely required versus which is a choice, so you can make that choice deliberately rather than by default.
 
-## Key takeaways
+## Quick recap
 
 - Needs and wants often overlap within the same spending category, rather than being cleanly separate.
 - A useful approach: identify the minimum reasonable cost to meet a genuine need, and treat spending beyond that as a want.
 - This distinction matters most when identifying where flexibility exists in a tight budget — often within categories that feel "fixed" at first glance.
 - The goal isn't eliminating all wants, but being honest and deliberate about which spending is required versus optional.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+We write to inform, not to advise on your specific situation. See the [disclaimer](/disclaimer/) for the fine print.

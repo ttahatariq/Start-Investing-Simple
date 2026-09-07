@@ -67,4 +67,4 @@ This is also why regularly reviewing and adjusting your retirement plan matters 
 
 There's no single dollar figure that applies to everyone — "how much you need to retire" depends on your expected expenses, other income sources, and how long your retirement needs to last. Frameworks like the 4% rule offer a useful starting estimate, but they work best as one input into an ongoing planning process, not a one-time calculation you set and forget.
 
-This article is for educational purposes only and isn't personalized financial advice — consider speaking with a licensed financial planner for guidance specific to your situation. See our full [disclaimer](/disclaimer/).
+This is general education, not advice built around your specific situation. See the [disclaimer](/disclaimer/) for more.

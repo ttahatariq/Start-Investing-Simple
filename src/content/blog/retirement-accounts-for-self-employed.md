@@ -56,4 +56,4 @@ The comparison depends heavily on your specific income level: at lower to modera
 - A SEP IRA is simpler to administer and works even if you have employees, though it requires proportional contributions for them too.
 - Given the complexity of exact contribution limit calculations, working through your specific numbers or consulting a tax professional is worthwhile before choosing.
 
-This article is for educational purposes only and isn't personalized tax or financial advice — contribution limits and rules change over time, so verify current details with a tax professional. See our full [disclaimer](/disclaimer/).
+Nothing here is personalized financial advice — just general education. Read our full [disclaimer](/disclaimer/) for the details.

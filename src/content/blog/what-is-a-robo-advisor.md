@@ -58,10 +58,10 @@ A robo-advisor is a digital platform that automatically builds and manages an in
 - **Available account types**: Confirm the platform supports the account type you need (standard taxable account, IRA, etc.).
 - **Additional features**: Tax-loss harvesting, automatic rebalancing frequency, and access to human advisors (some platforms offer hybrid tiers) can vary meaningfully between providers.
 
-## Key takeaways
+## What to remember
 
 - A robo-advisor automatically builds and manages a diversified investment portfolio based on your stated goals and risk tolerance.
 - It sits between fully self-directed investing and hiring a traditional human financial advisor, generally cheaper than the latter and more hands-off than the former.
 - It's a reasonable fit for beginners with straightforward financial situations who want automation; those with complex needs may be better served by a human advisor.
 
-This article is for educational purposes only and isn't personalized investment advice — see our full [disclaimer](/disclaimer/).
+Nothing here is personalized investment advice — just general education. Read our full [disclaimer](/disclaimer/) for the details.

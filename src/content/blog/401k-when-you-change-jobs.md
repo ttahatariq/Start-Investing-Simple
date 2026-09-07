@@ -50,4 +50,4 @@ It's common for people to genuinely lose track of old 401(k) accounts after mult
 
 Leaving a job doesn't mean losing your 401(k) — but it does require an active decision about what to do with it. For most people, a direct rollover into either a new employer's plan or an IRA offers the best combination of simplicity, cost, and continued tax-advantaged growth, while cashing out is rarely the best choice given the tax and penalty consequences.
 
-This article is for educational purposes only and isn't personalized tax or financial advice — rules and options vary by plan, so verify details with your plan administrator or a tax professional. See our full [disclaimer](/disclaimer/).
+We're not your financial advisor — just explaining how this works. Full [disclaimer](/disclaimer/) here.

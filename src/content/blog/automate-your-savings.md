@@ -51,4 +51,4 @@ Automation is a powerful tool for consistency, but it's not a substitute for hav
 
 The single biggest advantage of automating your savings isn't a clever trick or a higher return — it's consistency. By removing the need for an active decision each month, automation makes it far more likely that saving and investing actually happen, reliably, over the long periods of time where the effects of [compound growth](/blog/what-is-compound-interest/) really matter.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+We're explaining how things work, not telling you what to do with your own money. More on that in our [disclaimer](/disclaimer/).

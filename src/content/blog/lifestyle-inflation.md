@@ -48,4 +48,4 @@ Two people earning very different salaries can end up in similar long-term finan
 
 Lifestyle inflation isn't inherently a mistake — enjoying a higher income is a reasonable part of the reward for career growth. The risk is when it happens entirely by default, absorbing 100% of every raise, leaving your savings rate no better off than before. A deliberate plan for where raises go — even a simple "half to savings, half to lifestyle" rule — can prevent income growth from silently failing to translate into long-term financial progress.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+None of this is personalized advice — for that, talk to a licensed professional. Our [disclaimer](/disclaimer/) has more detail.

@@ -44,11 +44,11 @@ Consider:
 - **How long is your investing time horizon?** Over a sufficiently long horizon, the specific timing of when you invested a given sum tends to matter less.
 - **Do you have a hard time making the decision to invest at all?** For some people, DCA isn't really about optimizing returns — it's about building a routine that makes investing happen consistently, rather than continuing to sit in cash indefinitely while trying to decide on the "perfect" moment to invest a lump sum.
 
-## Key takeaways
+## What to remember
 
 - Historically, investing a lump sum immediately has outperformed dollar-cost averaging on average, since more money spends more time invested.
 - DCA can still be a reasonable choice for reducing regret risk and building psychological comfort with investing.
 - A hybrid approach — partial lump sum, partial DCA — is a reasonable middle ground for those uncertain which to choose.
 - The "right" choice depends as much on your own likely emotional reaction to short-term volatility as it does on historical averages.
 
-This article is for educational purposes only and isn't personalized investment advice — past performance is not a guarantee of future results. See our full [disclaimer](/disclaimer/).
+Treat this as background, not a personal recommendation — our [disclaimer](/disclaimer/) explains why.

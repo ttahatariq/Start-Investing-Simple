@@ -47,11 +47,11 @@ If your plan allows investing in your employer's own stock, it's worth being cau
 
 A reasonable, common default for someone who doesn't want to actively research and manage individual fund choices: select an appropriately dated target-date fund matching your expected retirement year, direct your full contribution there, and revisit the decision periodically (for example, once a year) rather than trying to build a fully custom allocation from day one.
 
-## Key takeaways
+## Where this leaves you
 
 - 401(k) plans typically offer a limited menu of funds, commonly including target-date funds, index funds, and actively managed funds.
 - Target-date funds offer a simple, automatically adjusting all-in-one option, though they don't account for individual risk tolerance.
 - Building a custom allocation from index fund options offers more control but requires periodic rebalancing.
 - Approach employer stock options cautiously, given the added concentration risk of combining your income and investments in a single company.
 
-This article is for educational purposes only and isn't personalized investment advice — see our full [disclaimer](/disclaimer/).
+Nothing here is personalized investment advice — just general education. Read our full [disclaimer](/disclaimer/) for the details.

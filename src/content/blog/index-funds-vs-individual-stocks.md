@@ -63,11 +63,8 @@ That doesn't mean individual stocks are off-limits. Some investors choose a "cor
 
 What doesn't tend to work well is going "all in" on a handful of individual stocks as a complete beginner, based on a tip from social media or a friend, without understanding the company or being prepared for the swings.
 
-## Key takeaways
+## Where that leaves you
 
-- Index funds spread your risk across many companies; individual stocks concentrate it in one.
-- Index funds require far less time, research, and expertise to hold responsibly.
-- Historically, most stock pickers — professional and amateur — underperform broad index funds over the long run, after fees.
-- A reasonable starting point for beginners is a low-cost index fund, with individual stocks (if any) as a smaller, separate portion of a portfolio.
+None of this means individual stocks are forbidden or that index funds are magic — it just means the odds favor simplicity for most people starting out. Spreading your risk across hundreds of companies, spending less time researching, and accepting the market's average return has historically beaten the alternative for the vast majority of investors, professional stock pickers included. If you still want to dabble in individual companies later, do it with money you can afford to hold through the ups and downs, on top of an index-fund foundation rather than instead of one.
 
 As always, this is general education, not personalized advice — read our full [disclaimer](/disclaimer/), and consider talking to a licensed financial advisor about your specific situation.

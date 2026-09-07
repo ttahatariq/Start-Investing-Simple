@@ -50,11 +50,11 @@ That said, understanding the distinction helps make sense of:
 
 Some funds explicitly blend growth and value characteristics, aiming for a more balanced exposure rather than leaning heavily toward either style. Others focus on specific sub-styles, like "quality" (financially strong, stable companies) or "momentum" (stocks that have recently been rising in price) — reflecting that growth and value are just two of several recognized investing style categories, not the only ones.
 
-## Key takeaways
+## Quick recap
 
 - Growth investing bets on future expansion and potential; value investing bets on current price being lower than underlying worth.
 - Neither style consistently outperforms the other across all time periods — leadership rotates unpredictably.
 - A broad-market index fund already includes both growth and value companies, without requiring you to pick a side.
 - Understanding this distinction helps explain differences in fund performance and stock valuations you'll encounter as an investor.
 
-This article is for educational purposes only and isn't personalized investment advice — see our full [disclaimer](/disclaimer/).
+We write to inform, not to advise on your specific situation. See the [disclaimer](/disclaimer/) for the fine print.

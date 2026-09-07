@@ -45,10 +45,10 @@ Suppose you contribute $500 per paycheck to your 401(k):
 - **All Roth**: You pay tax on the $500 now (no deduction); qualified withdrawals of both contributions and growth are tax-free in retirement.
 - **Split 50/50**: $250 reduces your taxable income now, while the other $250 is taxed now but grows tax-free — a middle-ground approach if you're genuinely unsure about your future tax situation.
 
-## Key takeaways
+## What to remember
 
 - A Roth 401(k) works like a Roth IRA (no upfront deduction, tax-free qualified withdrawals) but with no income limits on who can contribute.
 - Employer matching contributions are generally deposited pre-tax, regardless of which type you personally contribute to.
 - The choice largely comes down to your expected tax bracket now versus in retirement — and splitting contributions is a reasonable hedge if you're uncertain.
 
-This article is for educational purposes only and isn't personalized tax or financial advice — plan rules vary and change over time, so verify current details with your plan administrator or a tax professional. See our full [disclaimer](/disclaimer/).
+This isn't a recommendation — it's context to help you make your own informed decision. Full [disclaimer](/disclaimer/) here.

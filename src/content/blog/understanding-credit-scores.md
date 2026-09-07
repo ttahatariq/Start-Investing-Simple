@@ -48,4 +48,4 @@ A meaningfully better credit score can translate into real savings — a lower i
 
 A credit score is essentially a summary of your credit behavior over time, most heavily influenced by whether you pay on time and how much of your available credit you use. There's no shortcut to a great score, but consistent, boring habits — paying on time and keeping balances low — reliably build one over time.
 
-This article is for educational purposes only and isn't personalized financial advice — see our full [disclaimer](/disclaimer/).
+None of this is personalized advice — for that, talk to a licensed professional. Our [disclaimer](/disclaimer/) has more detail.
