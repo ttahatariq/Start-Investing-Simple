@@ -38,6 +38,15 @@ const ogImageURL = new URL(image, Astro.site);
       crossorigin="anonymous"
       is:inline
     ></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SKS10KXW52" is:inline></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SKS10KXW52');
+    </script>
     <link rel="canonical" href={canonicalURL} />
     <link rel="alternate" type="application/rss+xml" title="Start Investing Simple" href="/rss.xml" />
 
