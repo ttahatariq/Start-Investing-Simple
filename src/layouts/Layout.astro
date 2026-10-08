@@ -21,6 +21,22 @@ const siteName = 'Start Investing Simple';
 const pageTitle = title === siteName ? title : `${title} | ${siteName}`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImageURL = new URL(image, Astro.site);
+const siteOrigin = Astro.site?.toString().replace(/\/$/, '') ?? '';
+
+const organizationLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: siteName,
+  url: siteOrigin + '/',
+  logo: `${siteOrigin}/apple-touch-icon.png`,
+};
+
+const websiteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: siteName,
+  url: siteOrigin + '/',
+};
 ---
 
 <!doctype html>
@@ -75,6 +91,9 @@ const ogImageURL = new URL(image, Astro.site);
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageURL} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(organizationLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(websiteLd)} />
   </head>
   <body class="flex min-h-screen flex-col bg-ink font-sans text-paper antialiased">
     <Header />
