@@ -61,6 +61,10 @@ There's no required frequency, but many people find checking net worth once ever
 - **Future earning potential** — a graduate with student debt and a low net worth may have very different prospects than someone with the same number and no further earning growth ahead.
 - **How liquid your assets actually are** — a high net worth tied up mostly in home equity behaves very differently day to day than the same number held in a savings account.
 
+## Calculate your own
+
+Rather than estimating, try our free [Net Worth Calculator](/tools/net-worth-calculator/) — add your own assets and liabilities and it saves your entries privately in your browser so you can update them over time.
+
 ## The bottom line
 
 Net worth is a single, useful snapshot of your overall financial position — what you own minus what you owe — that captures the cumulative effect of your financial habits better than income alone. Tracking it periodically, and watching the trend rather than fixating on any single number, is one of the simplest ways to see whether your finances are actually moving in the direction you want.
