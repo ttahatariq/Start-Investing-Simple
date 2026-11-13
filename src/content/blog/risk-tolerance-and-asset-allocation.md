@@ -58,6 +58,10 @@ There's no "correct" risk tolerance — it's a personal characteristic, not a te
 
 Your risk tolerance and capacity can change over time — as your income changes, as you get closer to a financial goal, or simply as you gain more experience as an investor and see how you react to real market movements. It's worth revisiting your asset allocation periodically rather than setting it once and never reconsidering it.
 
+## Get a general sense of your own
+
+Rather than guessing, try our free [Risk Tolerance Quiz](/tools/risk-tolerance-quiz/) — six quick questions that give you a general starting profile (conservative, moderate, or aggressive) to think from.
+
 ## The bottom line
 
 Risk tolerance and asset allocation are deeply personal — there's no single "right" portfolio mix that applies to everyone with the same goal. Understanding your own capacity and comfort with risk, honestly, is often more valuable than chasing a theoretically optimal allocation you won't actually stick with when markets get rocky.

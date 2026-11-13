@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RiskToleranceQuiz from '../../components/RiskToleranceQuiz';
+---
+
+<Layout
+  title="Risk Tolerance Quiz"
+  description="A free, quick quiz to get a general sense of your investing risk tolerance — conservative, moderate, or aggressive."
+>
+  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-brand">Tool<span class="text-orange">/</span></p>
+    <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-paper sm:text-4xl">What's Your Risk Tolerance?</h1>
+    <p class="mt-3 text-lg text-muted">
+      Six quick questions to get a general sense of where you fall — conservative, moderate, or aggressive.
+    </p>
+
+    <div class="mt-8">
+      <RiskToleranceQuiz client:load />
+    </div>
+
+    <div class="prose prose-invert mt-10 max-w-none prose-a:text-brand">
+      <h2>How this quiz works</h2>
+      <p>
+        Each answer is assigned a point value, and your total score places you into one of three general risk
+        profiles. This is a simplified, informal starting point for self-reflection — not a substitute for
+        genuinely thinking through your own timeline, financial situation, and comfort with volatility, covered
+        in more depth in our <a href="/blog/risk-tolerance-and-asset-allocation/">risk tolerance guide</a>.
+      </p>
+    </div>
+  </div>
+</Layout>
