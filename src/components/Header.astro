@@ -32,6 +32,18 @@ const currentPath = Astro.url.pathname;
         </svg>
       </button>
       <button
+        id="theme-toggle"
+        class="theme-toggle-btn inline-flex items-center justify-center rounded-sm border border-line p-2 text-paper hover:border-brand"
+        aria-label="Toggle light/dark theme"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="theme-icon-dark h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364-.707-.707M6.343 6.343l-.707-.707m12.728 0-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="theme-icon-light hidden h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 0 1 8.646 3.646 9.003 9.003 0 0 0 12 21a9.003 9.003 0 0 0 8.354-5.646Z" />
+        </svg>
+      </button>
+      <button
         id="menu-toggle"
         class="inline-flex items-center justify-center rounded-sm border border-line p-2 text-paper hover:border-brand"
         aria-label="Toggle menu"
@@ -68,6 +80,18 @@ const currentPath = Astro.url.pathname;
         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <circle cx="11" cy="11" r="7" stroke-linecap="round" stroke-linejoin="round" />
           <path stroke-linecap="round" stroke-linejoin="round" d="m20 20-3.5-3.5" />
+        </svg>
+      </button>
+      <button
+        id="theme-toggle-desktop"
+        class="theme-toggle-btn inline-flex items-center justify-center rounded-sm border border-line p-2 text-muted hover:border-brand hover:text-brand"
+        aria-label="Toggle light/dark theme"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="theme-icon-dark h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364-.707-.707M6.343 6.343l-.707-.707m12.728 0-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="theme-icon-light hidden h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 0 1 8.646 3.646 9.003 9.003 0 0 0 12 21a9.003 9.003 0 0 0 8.354-5.646Z" />
         </svg>
       </button>
     </div>
@@ -125,5 +149,30 @@ const currentPath = Astro.url.pathname;
     const isOpen = menu?.classList.toggle('flex');
     menu?.classList.toggle('hidden');
     toggle.setAttribute('aria-expanded', String(!!isOpen));
+  });
+
+  const themeButtons = document.querySelectorAll<HTMLButtonElement>('.theme-toggle-btn');
+
+  const syncIcons = () => {
+    const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+    themeButtons.forEach((btn) => {
+      btn.querySelector('.theme-icon-dark')?.classList.toggle('hidden', isLight);
+      btn.querySelector('.theme-icon-light')?.classList.toggle('hidden', !isLight);
+    });
+  };
+  syncIcons();
+
+  themeButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      if (isLight) {
+        document.documentElement.removeAttribute('data-theme');
+        try { localStorage.setItem('sis-theme', 'dark'); } catch {}
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        try { localStorage.setItem('sis-theme', 'light'); } catch {}
+      }
+      syncIcons();
+    });
   });
 </script>

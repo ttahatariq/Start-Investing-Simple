@@ -19,6 +19,21 @@
   --color-orange: #f19b3a;
 }
 
+:root[data-theme="light"] {
+  --color-ink: #ffffff;
+  --color-surface: #f4f4f3;
+  --color-surface-2: #e8e8e6;
+  --color-line: #d6d6d3;
+  --color-paper: #16171b;
+  --color-muted: #5b5b61;
+
+  --color-brand: #16a34a;
+  --color-brand-dim: #15803d;
+  --color-aqua: #0e7490;
+  --color-violet: #7c3aed;
+  --color-orange: #c2410c;
+}
+
 @layer base {
   body {
     background-color: var(--color-ink);
