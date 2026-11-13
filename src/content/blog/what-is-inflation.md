@@ -25,6 +25,8 @@ This is a different kind of risk than a stock market crash — there's no dramat
 
 Suppose you have $10,000 sitting in an account earning essentially no interest, and inflation averages 3% per year. After 10 years, that $10,000 still says "$10,000" on your statement — but its actual purchasing power has fallen to roughly $7,400 in today's terms. Nothing was stolen or lost in the conventional sense; it simply couldn't keep pace with rising prices.
 
+Try this with your own numbers using our free [Inflation Calculator](/tools/inflation-calculator/) — plug in any amount, timeframe, and inflation rate to see the purchasing power lost.
+
 ## Why this matters for how you save and invest
 
 This is a core reason financial guidance generally distinguishes between:
