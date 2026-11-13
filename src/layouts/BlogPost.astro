@@ -3,6 +3,7 @@ import Layout from './Layout.astro';
 import AuthorBio from '../components/AuthorBio.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import ShareButtons from '../components/ShareButtons.astro';
+import BookmarkButton from '../components/BookmarkButton.astro';
 import FAQSection from '../components/FAQSection.astro';
 import { categorySlug } from '../lib/category';
 
@@ -25,6 +26,7 @@ interface Heading {
 }
 
 interface Props {
+  slug: string;
   title: string;
   description: string;
   pubDate: Date;
@@ -40,6 +42,7 @@ interface Props {
 }
 
 const {
+  slug,
   title,
   description,
   pubDate,
@@ -116,8 +119,9 @@ const breadcrumbLd = {
           )}
         </div>
 
-        <div class="mt-6">
+        <div class="mt-6 flex flex-wrap items-center gap-4">
           <ShareButtons url={absoluteUrl} title={title} />
+          <BookmarkButton slug={slug} />
         </div>
 
         <nav aria-label="Table of contents" class="mt-6 rounded-sm border border-line bg-surface p-4 lg:hidden">

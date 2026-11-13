@@ -36,6 +36,7 @@ const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
 ---
 
 <BlogPost
+  slug={post.id}
   title={post.data.title}
   description={post.data.description}
   pubDate={post.data.pubDate}

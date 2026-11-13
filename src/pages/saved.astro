@@ -1,0 +1,100 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Saved Articles"
+  description="Your personal reading list of saved articles, stored privately in your own browser."
+  noindex
+>
+  <div class="mx-auto max-w-4xl px-4 py-16 sm:px-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-brand">Your List<span class="text-orange">/</span></p>
+    <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-paper sm:text-4xl">Saved Articles</h1>
+    <p class="mt-3 text-lg text-muted">
+      Articles you've saved for later, kept privately in your own browser — nothing is sent anywhere.
+    </p>
+
+    <div id="saved-list" class="mt-10 grid gap-6 sm:grid-cols-2"></div>
+
+    <div id="saved-empty" class="mt-10 hidden">
+      <p class="text-muted">You haven't saved any articles yet.</p>
+      <a href="/blog/" class="mt-4 inline-block rounded-sm bg-brand px-6 py-3 font-mono text-sm font-semibold uppercase tracking-wide text-ink hover:bg-brand-dim">
+        Browse Articles
+      </a>
+    </div>
+  </div>
+</Layout>
+
+<script>
+  interface SearchItem {
+    slug: string;
+    title: string;
+    description: string;
+    category: string;
+  }
+
+  const STORAGE_KEY = 'sis-saved-articles';
+
+  function getSaved(): string[] {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]');
+    } catch {
+      return [];
+    }
+  }
+
+  function removeSaved(slug: string) {
+    try {
+      const saved = getSaved().filter((s) => s !== slug);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+    } catch {
+      // Storage unavailable — ignore.
+    }
+  }
+
+  async function render() {
+    const savedSlugs = getSaved();
+    const listEl = document.getElementById('saved-list')!;
+    const emptyEl = document.getElementById('saved-empty')!;
+
+    if (savedSlugs.length === 0) {
+      emptyEl.classList.remove('hidden');
+      return;
+    }
+
+    const res = await fetch('/search-index.json');
+    const allItems: SearchItem[] = await res.json();
+    const items = savedSlugs
+      .map((slug) => allItems.find((item) => item.slug === slug))
+      .filter((item): item is SearchItem => Boolean(item));
+
+    if (items.length === 0) {
+      emptyEl.classList.remove('hidden');
+      return;
+    }
+
+    listEl.innerHTML = items
+      .map(
+        (item) => `
+        <div class="corner-card rounded-sm bg-surface p-6">
+          <p class="font-mono text-xs uppercase tracking-wide text-brand">${item.category}</p>
+          <a href="/blog/${item.slug}/" class="mt-2 block text-lg font-semibold text-paper hover:text-brand">${item.title}</a>
+          <p class="mt-2 text-sm text-muted">${item.description}</p>
+          <button data-slug="${item.slug}" class="remove-saved mt-4 font-mono text-xs uppercase tracking-wide text-muted hover:text-orange">
+            Remove
+          </button>
+        </div>
+      `,
+      )
+      .join('');
+
+    listEl.querySelectorAll<HTMLButtonElement>('.remove-saved').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        removeSaved(btn.dataset.slug!);
+        render();
+      });
+    });
+  }
+
+  render();
+</script>
