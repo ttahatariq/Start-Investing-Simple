@@ -1,0 +1,35 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RothVsTraditionalCalculator from '../../components/RothVsTraditionalCalculator';
+---
+
+<Layout
+  title="Roth vs. Traditional Calculator"
+  description="Free calculator comparing estimated after-tax retirement outcomes between Roth and Traditional contributions, based on your current and expected future tax rate."
+>
+  <div class="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-brand">Tool<span class="text-orange">/</span></p>
+    <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-paper sm:text-4xl">Roth vs. Traditional Calculator</h1>
+    <p class="mt-3 text-lg text-muted">
+      See an estimated after-tax comparison based on your current tax rate and what you expect it to be in retirement.
+    </p>
+
+    <div class="mt-8">
+      <RothVsTraditionalCalculator client:load />
+    </div>
+
+    <div class="prose prose-invert mt-10 max-w-none prose-a:text-brand">
+      <h2>How this calculator works</h2>
+      <p>
+        This tool compares contributions that have the <em>same impact on your take-home pay today</em> — since a
+        Traditional contribution is tax-deductible now and a Roth contribution isn't, an equal dollar amount isn't
+        actually a fair comparison. The calculator adjusts the Roth contribution down to match the same after-tax
+        cost, then projects both forward and applies tax only to the Traditional balance at withdrawal.
+      </p>
+      <p>
+        Read our full <a href="/blog/roth-ira-vs-traditional-ira/">Roth vs. Traditional IRA guide</a> for the
+        reasoning behind this trade-off in more depth.
+      </p>
+    </div>
+  </div>
+</Layout>
