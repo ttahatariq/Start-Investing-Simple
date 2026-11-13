@@ -1,9 +1,21 @@
 ---
+import NewsletterSignup from './NewsletterSignup.astro';
 const year = new Date().getFullYear();
 ---
 
 <footer class="border-t border-line bg-surface">
   <div class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+    <div class="corner-card mb-10 rounded-sm bg-ink p-6 sm:p-8">
+      <p class="font-mono text-xs uppercase tracking-widest text-brand">Stay Updated<span class="text-orange">/</span></p>
+      <h2 class="mt-2 text-xl font-bold text-paper">Get new articles by email</h2>
+      <p class="mt-2 max-w-lg text-sm text-muted">
+        A short email whenever we publish a new article or calculator. No spam, unsubscribe anytime.
+      </p>
+      <div class="mt-4">
+        <NewsletterSignup compact />
+      </div>
+    </div>
+
     <div class="grid gap-10 sm:grid-cols-3">
       <div>
         <p class="text-base font-bold text-paper">Start Investing Simple<span class="text-brand">/</span></p>
