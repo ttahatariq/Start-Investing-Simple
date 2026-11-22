@@ -5,6 +5,7 @@ import TableOfContents from '../components/TableOfContents.astro';
 import ShareButtons from '../components/ShareButtons.astro';
 import BookmarkButton from '../components/BookmarkButton.astro';
 import FAQSection from '../components/FAQSection.astro';
+import AdBanner from '../components/AdBanner.astro';
 import { categorySlug } from '../lib/category';
 
 interface RelatedPost {
@@ -136,8 +137,22 @@ const breadcrumbLd = {
         </nav>
       </header>
 
+      <div class="mb-10 flex justify-center">
+        <AdBanner adKey="787a3f5b49597a27a357ea4a9e6ae95c" width={728} height={90} class="hidden sm:block" />
+        <AdBanner adKey="abc9cf3b27a6586b86a9612928d8ab2e" width={320} height={50} class="sm:hidden" />
+      </div>
+
       <div class="prose prose-invert max-w-none prose-headings:font-bold prose-a:text-brand prose-a:no-underline hover:prose-a:underline prose-strong:text-paper">
         <slot />
+      </div>
+
+      <div class="mt-10">
+        <script async data-cfasync="false" src="https://bauval.org/21/5275d7ad9803d792b4ba987672c504b1" is:inline></script>
+        <div id="container-5275d7ad9803d792b4ba987672c504b1"></div>
+      </div>
+
+      <div class="mt-10 flex justify-center">
+        <AdBanner adKey="a7aff0b5b0109a2d6854240a68bdf469" width={300} height={250} />
       </div>
 
       {tags.length > 0 && (
@@ -159,7 +174,13 @@ const breadcrumbLd = {
       <AuthorBio author={author} />
     </article>
 
-    <TableOfContents headings={headings} />
+    <aside class="hidden lg:block">
+      <TableOfContents headings={headings} />
+      <div class="mt-8 space-y-6">
+        <AdBanner adKey="d60055af9a7fe91f69ae4f9505476d21" width={160} height={300} />
+        <AdBanner adKey="1336039e3cdda1c5e34b677edb551a43" width={160} height={600} />
+      </div>
+    </aside>
   </div>
 
   {relatedPosts.length > 0 && (

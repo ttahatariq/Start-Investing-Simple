@@ -1,0 +1,16 @@
+---
+interface Props {
+  adKey: string;
+  width: number;
+  height: number;
+  class?: string;
+}
+const { adKey, width, height, class: className = '' } = Astro.props;
+---
+
+<div class={`mx-auto ${className}`} style={`width:${width}px; height:${height}px;`}>
+  <script define:vars={{ adKey, width, height }}>
+    atOptions = { key: adKey, format: 'iframe', height, width, params: {} };
+  </script>
+  <script is:inline src={`https://bauval.org/22/${adKey}`}></script>
+</div>
