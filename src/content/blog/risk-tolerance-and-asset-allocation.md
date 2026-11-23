@@ -2,7 +2,7 @@
 title: "Understanding Risk Tolerance and Asset Allocation"
 description: "Learn what risk tolerance means, how it shapes your investment mix, and how to think about your own comfort with market ups and downs."
 pubDate: 2026-06-15
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["risk tolerance", "asset allocation", "investing basics"]
 ---

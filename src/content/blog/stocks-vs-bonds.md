@@ -2,7 +2,7 @@
 title: "Stocks vs. Bonds: Understanding the Basic Building Blocks of Investing"
 description: "A beginner's guide to how stocks and bonds work, how their risk and return differ, and why most portfolios include a mix of both."
 pubDate: 2026-03-28
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["stocks", "bonds", "investing basics"]
 ---

@@ -2,7 +2,7 @@
 title: "Required Minimum Distributions (RMDs) Explained"
 description: "Learn what Required Minimum Distributions are, which accounts they apply to, how they're calculated, and what happens if you miss one."
 pubDate: 2026-09-30
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Retirement Planning"
 tags: ["rmd", "retirement", "401k", "ira"]
 ---

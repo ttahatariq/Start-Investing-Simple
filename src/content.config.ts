@@ -8,7 +8,7 @@ const blog = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    author: z.string().default('Start Investing Simple Team'),
+    author: z.string().default('Taha Tariq'),
     heroImage: z.string().optional(),
     category: z.string(),
     tags: z.array(z.string()).default([]),

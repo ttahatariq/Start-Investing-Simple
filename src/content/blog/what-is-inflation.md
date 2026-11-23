@@ -1,8 +1,8 @@
 ---
 title: "What Is Inflation and How Does It Quietly Erode Your Savings?"
 description: "Learn what inflation actually is, why cash sitting still loses purchasing power over time, and why this matters for how you save and invest."
-pubDate: 2026-12-10
-author: "Start Investing Simple Team"
+pubDate: 2026-09-25
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["inflation", "purchasing power", "investing basics"]
 ---

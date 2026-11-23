@@ -2,7 +2,7 @@
 title: "Dollar-Cost Averaging vs. Lump Sum Investing: Which Wins?"
 description: "If you have a large sum to invest, should you invest it all at once or spread it out over time? Here's how to think about the trade-off."
 pubDate: 2026-11-13
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["dollar-cost averaging", "lump sum", "investing basics"]
 ---

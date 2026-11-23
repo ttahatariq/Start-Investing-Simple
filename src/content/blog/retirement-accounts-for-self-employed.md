@@ -1,8 +1,8 @@
 ---
 title: "Retirement Accounts for the Self-Employed: SEP IRA and Solo 401(k)"
 description: "Learn how SEP IRAs and Solo 401(k)s work, how they differ, and which might fit freelancers, contractors, and small business owners without access to an employer plan."
-pubDate: 2026-12-11
-author: "Start Investing Simple Team"
+pubDate: 2026-08-31
+author: "Taha Tariq"
 category: "Retirement Planning"
 tags: ["self-employed", "sep ira", "solo 401k", "retirement"]
 ---

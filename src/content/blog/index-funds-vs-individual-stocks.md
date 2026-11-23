@@ -2,7 +2,7 @@
 title: "Index Funds vs. Individual Stocks: Which Should Beginners Choose?"
 description: "A clear comparison of index funds and individual stocks to help new investors decide where to put their first dollars."
 pubDate: 2026-02-03
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["index funds", "stocks", "beginners"]
 related: ["investments-for-beginners", "what-is-an-etf", "best-investing-books-for-beginners"]

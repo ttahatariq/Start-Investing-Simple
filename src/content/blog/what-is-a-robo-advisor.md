@@ -2,7 +2,7 @@
 title: "What Is a Robo-Advisor? Automated Investing Explained"
 description: "Learn how robo-advisors work, how they differ from traditional financial advisors and self-directed investing, and who they might be a good fit for."
 pubDate: 2026-11-17
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["robo-advisor", "automated investing", "investing basics"]
 ---

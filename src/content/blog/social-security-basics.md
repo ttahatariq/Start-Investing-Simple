@@ -2,7 +2,7 @@
 title: "Social Security Basics: What to Know Before You Retire"
 description: "A plain-English overview of how Social Security retirement benefits work, how your benefit amount is calculated, and how claiming age affects your monthly payment."
 pubDate: 2026-08-15
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Retirement Planning"
 tags: ["social security", "retirement"]
 ---

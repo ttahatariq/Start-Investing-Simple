@@ -2,7 +2,7 @@
 title: "How to Choose Investments Inside Your 401(k)"
 description: "Learn how to navigate typical 401(k) investment menus, understand target-date funds, and build a reasonable allocation from limited plan options."
 pubDate: 2026-11-09
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Retirement Planning"
 tags: ["401k", "target-date funds", "retirement"]
 ---

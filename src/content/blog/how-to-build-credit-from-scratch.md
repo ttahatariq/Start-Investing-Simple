@@ -1,8 +1,8 @@
 ---
 title: "How to Build Credit From Scratch (No Credit History)"
 description: "Practical steps for building a credit history when you're starting with none — secured cards, becoming an authorized user, and what to avoid."
-pubDate: 2026-11-25
-author: "Start Investing Simple Team"
+pubDate: 2026-08-31
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["credit", "credit score", "beginners"]
 ---

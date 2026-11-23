@@ -2,7 +2,7 @@
 title: "High-Yield Savings Accounts Explained: Why Your Emergency Fund Deserves One"
 description: "Learn how high-yield savings accounts work, how they differ from regular savings accounts, and what to check before opening one."
 pubDate: 2026-07-28
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["high-yield savings", "emergency fund", "saving"]
 ---

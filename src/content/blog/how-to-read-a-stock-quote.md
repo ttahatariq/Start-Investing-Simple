@@ -2,7 +2,7 @@
 title: "How to Read a Stock Quote: P/E Ratio, Market Cap, and More"
 description: "Learn how to interpret the numbers on a stock quote page — price, market cap, P/E ratio, dividend yield, and 52-week range — in plain English."
 pubDate: 2026-10-12
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["stock quote", "market cap", "p/e ratio"]
 ---

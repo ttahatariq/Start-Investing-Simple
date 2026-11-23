@@ -1,8 +1,8 @@
 ---
 title: "How to Negotiate Bills and Lower Recurring Expenses"
 description: "Practical scripts and strategies for negotiating cable, internet, insurance, and subscription bills down without sacrificing service you actually need."
-pubDate: 2026-11-29
-author: "Start Investing Simple Team"
+pubDate: 2026-08-31
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["negotiating bills", "saving", "money habits"]
 ---

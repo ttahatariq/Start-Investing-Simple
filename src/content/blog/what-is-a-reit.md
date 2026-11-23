@@ -2,7 +2,7 @@
 title: "What Is a REIT? Investing in Real Estate Without Buying Property"
 description: "Learn what a REIT is, how it lets you invest in real estate through the stock market, and the trade-offs compared to owning property directly."
 pubDate: 2026-10-04
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["reit", "real estate", "investing basics"]
 ---

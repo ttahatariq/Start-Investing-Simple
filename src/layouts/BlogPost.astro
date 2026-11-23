@@ -68,8 +68,12 @@ const jsonLd = {
   '@type': 'Article',
   headline: title,
   description,
-  author: { '@type': 'Person', name: author },
-  publisher: { '@type': 'Organization', name: 'Start Investing Simple' },
+  author: {
+    '@type': 'Person',
+    name: author,
+    ...(author === 'Taha Tariq' ? { url: new URL('/about/', Astro.site).toString() } : {}),
+  },
+  publisher: { '@type': 'Organization', name: 'Start Investing Simple', url: Astro.site?.toString() },
   datePublished: pubDate.toISOString(),
   dateModified: (updatedDate ?? pubDate).toISOString(),
 };

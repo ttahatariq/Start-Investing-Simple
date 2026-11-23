@@ -2,7 +2,7 @@
 title: "Traditional 401(k) vs. Roth 401(k): Which Should You Choose?"
 description: "Learn the key differences between a Traditional 401(k) and a Roth 401(k), and how to decide which one fits your situation when your employer offers both."
 pubDate: 2026-09-22
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Retirement Planning"
 tags: ["401k", "roth 401k", "retirement"]
 related: ["roth-401k-vs-roth-ira", "roth-ira-vs-traditional-ira", "401k-contribution-limits"]

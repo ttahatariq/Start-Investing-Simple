@@ -2,7 +2,7 @@
 title: "Bull Markets vs. Bear Markets: What the Terms Actually Mean"
 description: "Learn what bull and bear markets are, how they're typically defined, and what they mean (and don't mean) for long-term investors."
 pubDate: 2026-10-08
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["bull market", "bear market", "investing basics"]
 ---

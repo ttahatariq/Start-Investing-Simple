@@ -1,8 +1,8 @@
 ---
 title: "Should You Pay Off Debt or Invest First?"
 description: "A practical framework for deciding whether to prioritize paying off debt or investing, based on interest rates, employer matches, and your risk tolerance."
-pubDate: 2026-12-07
-author: "Start Investing Simple Team"
+pubDate: 2026-08-31
+author: "Taha Tariq"
 category: "Retirement Planning"
 tags: ["debt vs investing", "personal finance strategy"]
 ---

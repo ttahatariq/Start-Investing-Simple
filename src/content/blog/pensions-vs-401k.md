@@ -2,7 +2,7 @@
 title: "Pensions vs. 401(k)s: How Retirement Plans Have Changed"
 description: "Learn the key differences between old-style pensions and modern 401(k) plans, and what the shift between them means for how you need to plan for retirement."
 pubDate: 2026-11-05
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Retirement Planning"
 tags: ["pension", "401k", "retirement"]
 ---

@@ -2,7 +2,7 @@
 title: "Debt Snowball vs. Debt Avalanche: Which Payoff Method Is Right for You?"
 description: "Compare the debt snowball and debt avalanche methods for paying off multiple debts, including the math behind each and which one tends to work better for different people."
 pubDate: 2026-05-05
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["debt payoff", "snowball method", "avalanche method"]
 ---

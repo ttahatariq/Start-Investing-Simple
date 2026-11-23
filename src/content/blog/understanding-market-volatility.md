@@ -2,7 +2,7 @@
 title: "Understanding Market Volatility: Why Staying Invested Matters"
 description: "Learn why stock markets fluctuate, why volatility isn't the same as losing money, and why staying invested through downturns has historically mattered more than timing them."
 pubDate: 2026-08-20
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["market volatility", "investing basics", "long-term investing"]
 ---

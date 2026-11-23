@@ -2,7 +2,7 @@
 title: "What Happens to Your 401(k) When You Change Jobs"
 description: "Learn your options for an old 401(k) after leaving a job — leaving it in place, rolling it over, or cashing out — and the trade-offs of each."
 pubDate: 2026-09-26
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Retirement Planning"
 tags: ["401k", "job change", "retirement"]
 ---

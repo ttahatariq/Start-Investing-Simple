@@ -2,7 +2,7 @@
 title: "International vs. Domestic Investing: Should You Diversify Globally?"
 description: "Learn the case for and against international diversification, home country bias, and how much global exposure might make sense in a portfolio."
 pubDate: 2026-10-16
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["international investing", "diversification", "investing basics"]
 ---

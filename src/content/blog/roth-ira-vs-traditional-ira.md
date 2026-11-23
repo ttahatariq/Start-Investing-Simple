@@ -2,7 +2,7 @@
 title: "Roth IRA vs. Traditional IRA: Which One Should You Choose?"
 description: "A plain-English breakdown of how Roth and Traditional IRAs differ in taxes, withdrawals, and eligibility — and how to decide which fits your situation."
 pubDate: 2026-03-05
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Retirement Planning"
 tags: ["roth ira", "traditional ira", "retirement"]
 related: ["roth-401k-vs-roth-ira", "traditional-401k-vs-roth-401k", "what-is-a-brokerage-account"]

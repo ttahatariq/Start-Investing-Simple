@@ -1,8 +1,8 @@
 ---
 title: "What Is Net Worth and Why It's Worth Tracking"
 description: "Learn what net worth actually measures, how to calculate your own, and why it's often a more useful number than income for tracking financial progress."
-pubDate: 2027-01-08
-author: "Start Investing Simple Team"
+pubDate: 2026-09-25
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["net worth", "financial tracking", "personal finance"]
 ---

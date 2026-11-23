@@ -2,7 +2,7 @@
 title: "Sinking Funds: How to Save for Predictable Big Expenses Without Debt"
 description: "Learn what a sinking fund is, how it differs from an emergency fund, and how to use one to pay for expected big expenses without going into debt."
 pubDate: 2026-08-24
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["sinking fund", "saving", "budgeting"]
 ---

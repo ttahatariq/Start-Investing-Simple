@@ -2,7 +2,7 @@
 title: "Understanding Stock Splits: What They Mean for Investors"
 description: "Learn what a stock split actually does (and doesn't do) to your investment's value, why companies do them, and how to think about split announcements."
 pubDate: 2026-11-21
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["stock split", "stocks", "investing basics"]
 ---

@@ -2,7 +2,7 @@
 title: "What Are Dividends and How Do They Work?"
 description: "A plain-English explanation of stock dividends, how dividend payments work, and what dividend reinvestment means for long-term investors."
 pubDate: 2026-06-28
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["dividends", "stocks", "investing basics"]
 ---

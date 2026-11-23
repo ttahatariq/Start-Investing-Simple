@@ -2,7 +2,7 @@
 title: "Budgeting Methods That Actually Work: Finding One You'll Stick With"
 description: "Compare popular budgeting methods — zero-based budgeting, the envelope method, and pay-yourself-first — to find the approach that fits your habits."
 pubDate: 2026-07-08
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["budgeting", "money management", "saving"]
 ---

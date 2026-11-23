@@ -2,7 +2,7 @@
 title: "Understanding Expense Ratios: The Hidden Cost of Investing"
 description: "Learn what an expense ratio is, how it quietly affects your investment returns over time, and how to compare fund costs before you invest."
 pubDate: 2026-09-05
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["expense ratio", "fees", "index funds"]
 ---

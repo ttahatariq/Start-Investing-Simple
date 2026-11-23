@@ -1,8 +1,8 @@
 ---
 title: "Wills and Estate Planning Basics: What Everyone Should Have"
 description: "Estate planning isn't just for the wealthy or elderly. Here's what a basic will covers, why it matters at any age, and what happens if you don't have one."
-pubDate: 2027-01-24
-author: "Start Investing Simple Team"
+pubDate: 2026-09-25
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["estate planning", "wills", "personal finance"]
 ---

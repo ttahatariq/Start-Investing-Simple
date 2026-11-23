@@ -2,7 +2,7 @@
 title: "How Much Should You Have in Savings at Every Age? A Realistic Look"
 description: "Explore common savings benchmarks by age, why they're rough guidelines rather than rules, and how to think about your own progress instead."
 pubDate: 2026-10-24
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["savings benchmarks", "saving", "money milestones"]
 ---

@@ -2,7 +2,7 @@
 title: "The HSA: A Health Savings Account That Doubles as a Retirement Tool"
 description: "Learn how Health Savings Accounts work, their unique triple tax advantage, and why some people use them as an extra retirement savings vehicle."
 pubDate: 2026-08-05
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Retirement Planning"
 tags: ["hsa", "retirement", "health savings account"]
 ---

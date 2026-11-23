@@ -1,8 +1,8 @@
 ---
 title: "Understanding Your Paycheck: Gross Pay, Net Pay, and Deductions"
 description: "A plain-English breakdown of what actually happens between your gross salary and the amount that lands in your bank account."
-pubDate: 2026-12-03
-author: "Start Investing Simple Team"
+pubDate: 2026-08-31
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["paycheck", "gross pay", "net pay"]
 ---

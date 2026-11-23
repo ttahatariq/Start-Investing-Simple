@@ -2,7 +2,7 @@
 title: "What Is an ETF? Exchange-Traded Funds Explained Simply"
 description: "Learn what ETFs are, how they differ from mutual funds, and why they've become one of the most popular ways for beginners to invest."
 pubDate: 2026-06-02
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["etf", "index funds", "investing basics"]
 related: ["investments-for-beginners", "index-funds-vs-individual-stocks", "understanding-expense-ratios"]

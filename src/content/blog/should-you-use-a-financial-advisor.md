@@ -1,8 +1,8 @@
 ---
 title: "Should You Use a Financial Advisor? How to Decide"
 description: "Learn when a financial advisor might genuinely help, how different advisors are paid, and the questions worth asking before hiring one."
-pubDate: 2027-01-20
-author: "Start Investing Simple Team"
+pubDate: 2026-09-25
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["financial advisor", "financial planning"]
 ---

@@ -2,7 +2,7 @@
 title: "The True Cost of Minimum Payments on Credit Card Debt"
 description: "See how paying only the minimum on credit card debt dramatically increases the total interest paid and how long it takes to become debt-free."
 pubDate: 2026-10-28
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["credit card debt", "minimum payments", "debt"]
 ---

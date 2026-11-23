@@ -1,8 +1,8 @@
 ---
 title: "Renting vs. Buying a Home: The Real Financial Comparison"
 description: "Renting isn't just 'throwing money away,' and buying isn't automatically the smarter financial move. Here's a more honest look at the real trade-offs."
-pubDate: 2026-12-18
-author: "Start Investing Simple Team"
+pubDate: 2026-09-25
+author: "Taha Tariq"
 category: "Saving & Budgeting"
 tags: ["renting", "buying a home", "housing"]
 ---

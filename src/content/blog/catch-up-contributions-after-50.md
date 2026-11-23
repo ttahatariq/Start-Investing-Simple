@@ -2,7 +2,7 @@
 title: "Catch-Up Contributions: Boosting Retirement Savings After 50"
 description: "Learn what catch-up contributions are, which retirement accounts allow them, and how they can help if you're starting to save seriously later in your career."
 pubDate: 2026-11-01
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Retirement Planning"
 tags: ["catch-up contributions", "retirement", "401k", "ira"]
 related: ["401k-contribution-limits", "should-you-max-out-your-401k", "how-much-do-you-need-to-retire"]

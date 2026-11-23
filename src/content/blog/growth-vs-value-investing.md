@@ -2,7 +2,7 @@
 title: "Growth vs. Value Investing: Two Different Philosophies Explained"
 description: "Learn the difference between growth and value investing styles, how each approaches picking companies, and why many portfolios include a mix of both."
 pubDate: 2026-09-10
-author: "Start Investing Simple Team"
+author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["growth investing", "value investing", "investing basics"]
 ---
