@@ -18,7 +18,7 @@ faqs:
     answer: "Starting as early as possible is generally the biggest factor, since time is what allows compounding to build momentum — more so than trying to find the highest possible rate of return."
 ---
 
-If you've spent any time reading about investing, you've probably come across the phrase "compound interest is the eighth wonder of the world" — a line often (and probably incorrectly) attributed to Albert Einstein. Misattributed or not, the idea behind it is one of the most important concepts in personal finance, and understanding it is the first step toward making smarter decisions with your money.
+If you've spent any time reading about investing, you've probably come across the phrase "compound interest is the eighth wonder of the world" — a line often (and probably incorrectly) attributed to Albert Einstein. Misattributed or not, the idea behind it is one of the most important concepts in personal finance, and understanding it is the first step toward making smarter decisions with your money, including which [investments for beginners](/blog/investments-for-beginners/) make the most sense.
 
 ## What compound interest actually means
 

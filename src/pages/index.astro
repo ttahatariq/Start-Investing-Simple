@@ -180,6 +180,21 @@ const tools = [
         ))}
       </div>
 
+      <div class="mt-8">
+        <p class="font-mono text-xs uppercase tracking-widest text-muted">Popular guides</p>
+        <ul class="mt-3 flex flex-wrap gap-x-6 gap-y-2">
+          {[
+            { href: '/blog/investments-for-beginners/', label: 'Investments for beginners' },
+            { href: '/blog/what-is-a-401k/', label: 'What is a 401(k)?' },
+            { href: '/blog/401k-contribution-limits/', label: '2027 401(k) limits' },
+            { href: '/blog/roth-401k-vs-roth-ira/', label: 'Roth 401(k) vs. Roth IRA' },
+            { href: '/blog/403b-vs-401k/', label: '403(b) vs. 401(k)' },
+          ].map((l) => (
+            <li><a href={l.href} class="font-mono text-sm text-brand hover:underline">{l.label} &rarr;</a></li>
+          ))}
+        </ul>
+      </div>
+
       <script type="application/json" id="surprise-me-home-slugs">{JSON.stringify(allSlugs)}</script>
       <script>
         const btn = document.getElementById('surprise-me-home');

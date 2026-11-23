@@ -11,7 +11,7 @@ Signing up for a [401(k)](/blog/what-is-a-401k/) is only the first step — you 
 
 ## Understanding your plan's investment menu
 
-Most 401(k) plans offer a curated list of investment options, typically including:
+Most 401(k) plans — and [403(b) plans, which work almost the same way](/blog/403b-vs-401k/) — offer a curated list of investment options, typically including:
 
 - **Target-date funds**: A single fund that automatically adjusts its mix of stocks and bonds over time, becoming more conservative as you approach a specified target retirement year.
 - **Index funds**: Funds tracking a broad market index (like the S&P 500 or the total U.S. stock market), similar to what's covered in our [index funds guide](/blog/index-funds-vs-individual-stocks/).

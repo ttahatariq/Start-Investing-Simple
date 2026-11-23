@@ -31,7 +31,7 @@ A 401(k) (technically a "defined contribution" plan) works very differently: the
 
 Pensions require employers to take on long-term financial commitments and investment risk, which can be substantial, especially as life expectancies increased and pension obligations grew larger and longer-lasting than originally anticipated. Over recent decades, many employers — particularly in the private sector — shifted away from offering pensions to new employees, favoring 401(k) plans instead, which shift both the cost predictability and the investment risk onto employees.
 
-Pensions still exist in some sectors, notably many government and public-sector jobs, but they've become considerably less common in private industry than they once were.
+Pensions still exist in some sectors, notably many government and public-sector jobs (where workers are often offered a 403(b) rather than a 401(k) — see [403(b) vs. 401(k)](/blog/403b-vs-401k/)), but they've become considerably less common in private industry than they once were.
 
 ## What this shift means for individuals
 

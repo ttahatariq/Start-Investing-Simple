@@ -5,13 +5,14 @@ pubDate: 2026-11-20
 author: "Start Investing Simple Team"
 category: "Retirement Planning"
 tags: ["401k", "retirement", "contribution limits"]
+related: ["401k-contribution-limits", "how-much-to-contribute-to-401k-by-age", "catch-up-contributions-after-50"]
 ---
 
 "Should I max out my 401(k)?" gets treated online as an obviously-yes question — as if contributing the maximum amount allowed by law is automatically the smartest financial move available. It often is a strong move. It isn't automatically the *right* one for every situation.
 
 ## What "maxing out" means
 
-The IRS sets an annual limit on employee 401(k) contributions, adjusted periodically for inflation, with an additional catch-up amount allowed for people 50 and older (covered in more detail in our [catch-up contributions guide](/blog/catch-up-contributions-after-50/)). "Maxing out" means contributing up to that full annual limit.
+The IRS sets an [annual limit on employee 401(k) contributions](/blog/401k-contribution-limits/) ($25,500 for 2027), adjusted periodically for inflation, with an additional catch-up amount allowed for people 50 and older (covered in more detail in our [catch-up contributions guide](/blog/catch-up-contributions-after-50/)). "Maxing out" means contributing up to that full annual limit.
 
 ## The case for maxing it out
 
@@ -42,6 +43,6 @@ This isn't a rigid formula — someone with no debt and a stable job might reaso
 
 That's normal, and it's still valuable. There's no requirement to max out every single year to benefit meaningfully from a 401(k) — even partial, consistent contributions compound significantly over a career, as covered in our [compound interest guide](/blog/what-is-compound-interest/).
 
-Maxing out is a strong goal to work toward, not a prerequisite for a 401(k) to be worthwhile.
+Maxing out is a strong goal to work toward, not a prerequisite for a 401(k) to be worthwhile. If you're not there yet, our guide on [how much you should contribute to your 401(k)](/blog/how-much-to-contribute-to-401k-by-age/) can help you pick a realistic rate.
 
 This is general education, not advice built around your specific financial situation — see our [disclaimer](/disclaimer/) for more.

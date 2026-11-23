@@ -7,7 +7,7 @@ category: "Investing Basics"
 tags: ["robo-advisor", "automated investing", "investing basics"]
 ---
 
-For someone who wants to invest but feels overwhelmed by choosing individual funds and managing an allocation themselves, a robo-advisor offers a middle path between doing it entirely yourself and hiring a traditional human financial advisor.
+For someone who wants to invest but feels overwhelmed by choosing individual funds and managing an allocation themselves, a robo-advisor offers a middle path between doing it entirely yourself and hiring a traditional human financial advisor. It's one of several [beginner-friendly investment options](/blog/investments-for-beginners/) worth comparing.
 
 ## What is a robo-advisor?
 

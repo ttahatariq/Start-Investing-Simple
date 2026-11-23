@@ -41,6 +41,7 @@ The comparison depends heavily on your specific income level: at lower to modera
 
 - **Traditional or Roth IRA**: Available to self-employed individuals just like anyone else, though with lower contribution limits than a SEP IRA or Solo 401(k), as covered in our [Roth vs. Traditional IRA guide](/blog/roth-ira-vs-traditional-ira/).
 - **SIMPLE IRA**: Another option designed for small businesses, generally simpler to administer than a Solo 401(k) but with lower contribution limits, more commonly used by businesses with a small number of employees rather than solo self-employed individuals.
+- **A workplace plan from a day job**: If you freelance on the side while working for a school, hospital, or nonprofit, you may also have a 403(b) — see [how a 403(b) compares to a 401(k)](/blog/403b-vs-401k/), and check how its contribution limit interacts with a Solo 401(k) before contributing to both.
 
 ## Factors to consider when choosing
 

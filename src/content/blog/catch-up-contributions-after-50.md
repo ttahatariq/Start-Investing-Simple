@@ -5,6 +5,7 @@ pubDate: 2026-11-01
 author: "Start Investing Simple Team"
 category: "Retirement Planning"
 tags: ["catch-up contributions", "retirement", "401k", "ira"]
+related: ["401k-contribution-limits", "should-you-max-out-your-401k", "how-much-do-you-need-to-retire"]
 ---
 
 If you're 50 or older and feel behind on retirement savings, catch-up contributions offer a way to put away more than the standard annual limits allow — a recognition, built into the rules themselves, that many people have more capacity (and sometimes more urgency) to save for retirement later in their careers.
@@ -18,7 +19,7 @@ Catch-up contributions are additional amounts that people age 50 and older are p
 - **401(k) and similar employer-sponsored plans**: An additional catch-up amount is permitted on top of the standard annual limit.
 - **Traditional and Roth IRAs**: A smaller additional catch-up amount is permitted on top of the standard IRA limit.
 
-Because contribution limits (both standard and catch-up amounts) are adjusted periodically and have seen additional special provisions introduced for certain age ranges in more recent legislation, it's important to verify the current limits directly rather than relying on older figures, including any specific numbers that may have been cited elsewhere.
+Because contribution limits (both standard and catch-up amounts) are adjusted periodically and have seen additional special provisions introduced for certain age ranges in more recent legislation, it's important to verify the current limits directly rather than relying on older figures, including any specific numbers that may have been cited elsewhere. Our [2027 401(k) contribution limits](/blog/401k-contribution-limits/) guide lists this year's standard, age-50, and age-60-to-63 catch-up amounts.
 
 ## Why this provision exists
 

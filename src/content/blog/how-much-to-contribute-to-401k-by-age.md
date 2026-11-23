@@ -5,13 +5,14 @@ pubDate: 2026-11-28
 author: "Start Investing Simple Team"
 category: "Retirement Planning"
 tags: ["401k", "retirement", "savings benchmarks"]
+related: ["401k-contribution-limits", "should-you-max-out-your-401k", "what-is-a-401k"]
 ---
 
-"How much should I be contributing to my 401(k) right now?" is one of the most common questions from people who have a plan available but aren't sure whether their current contribution rate is reasonable. There isn't one universal answer, but there are useful ways to think about it by career stage.
+"How much should I be contributing to my 401(k) right now?" is one of the most common questions from people who have a [401(k) plan](/blog/what-is-a-401k/) available but aren't sure whether their current contribution rate is reasonable. There isn't one universal answer, but there are useful ways to think about it by career stage.
 
 ## Early career: building the habit
 
-At the start of a career, the priority is usually contributing enough to capture any employer match in full — often somewhere in the 3-6% range, though this varies by employer — while also building an emergency fund and managing any existing debt. A commonly cited longer-term target is working toward 10-15% of income (including any employer match) over time, but starting lower and increasing gradually is far more realistic than hitting that number immediately on a starting salary.
+At the start of a career, the priority is usually contributing enough to capture any employer match in full — often somewhere in the 3-6% range, though this varies by employer — while also building an [emergency fund](/blog/build-emergency-fund-before-investing/) and [managing any existing debt](/blog/pay-off-debt-or-invest-first/). A commonly cited longer-term target is working toward 10-15% of income (including any employer match) over time, but starting lower and increasing gradually is far more realistic than hitting that number immediately on a starting salary.
 
 ## Mid-career: increasing the rate
 
@@ -19,7 +20,7 @@ As income tends to rise through a career, mid-career is often a natural point to
 
 ## Approaching retirement: catching up if needed
 
-If contributions started later or were interrupted, the years approaching retirement are when [catch-up contributions](/blog/catch-up-contributions-after-50/) become available, allowing people 50 and older to contribute beyond the standard annual limit. This stage often also involves a closer look at actual retirement income needs, as covered in our [how much do you need to retire](/blog/how-much-do-you-need-to-retire/) guide, rather than relying purely on generic percentage targets.
+If contributions started later or were interrupted, the years approaching retirement are when [catch-up contributions](/blog/catch-up-contributions-after-50/) become available, allowing people 50 and older to contribute beyond the [standard annual limit](/blog/401k-contribution-limits/). This stage often also involves a closer look at actual retirement income needs, as covered in our [how much do you need to retire](/blog/how-much-do-you-need-to-retire/) guide, rather than relying purely on generic percentage targets.
 
 ## Why generic benchmarks have real limits
 
@@ -30,7 +31,7 @@ These percentage ranges are common reference points, not personalized targets. T
 - How many years you actually have until you plan to retire
 - Whether you're prioritizing other financial goals (debt payoff, a house down payment) at the same time
 
-Two people the same age with the same salary can reasonably have very different "right" contribution rates depending on these factors.
+Two people the same age with the same salary can reasonably have very different "right" contribution rates depending on these factors. The same caveats apply to [savings benchmarks by age](/blog/how-much-savings-at-every-age/).
 
 ## A more useful approach than chasing a percentage
 
@@ -39,7 +40,8 @@ Rather than fixating on hitting a specific percentage because it appeared in an 
 1. Capture the full employer match, at minimum.
 2. Estimate your actual retirement number using a tool like our [Retirement Savings Calculator](/tools/retirement-calculator/).
 3. Work backward to figure out roughly what contribution rate, sustained over your remaining working years, gets you there.
-4. Revisit that number periodically as your income, goals, and circumstances change.
+4. If your budget allows more, decide whether to go all the way to the IRS limit — see [should you max out your 401(k)?](/blog/should-you-max-out-your-401k/)
+5. Revisit that number periodically as your income, goals, and circumstances change.
 
 ## The bottom line
 

@@ -13,6 +13,8 @@ const blog = defineCollection({
     category: z.string(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
+    // Hand-picked related post slugs (shown first in "Related posts"), for internal linking.
+    related: z.array(z.string()).optional(),
     faqs: z
       .array(
         z.object({

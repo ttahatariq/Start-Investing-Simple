@@ -19,7 +19,7 @@ faqs:
     answer: "Generally unexpected, necessary expenses — job loss, urgent medical bills, essential car or home repairs — rather than planned or discretionary spending, which is better covered by a sinking fund instead."
 ---
 
-It's tempting to jump straight into investing once you learn about compound growth and the potential of the stock market. But before you put money into investments, most financial experts recommend a less exciting — but arguably more important — first step: building an emergency fund.
+It's tempting to jump straight into investing once you learn about compound growth and the potential of the stock market. But before you put money into investments, most financial experts recommend a less exciting — but arguably more important — first step: building an emergency fund. Once it's in place, our guide to [investments for beginners](/blog/investments-for-beginners/) covers where to go next.
 
 ## What is an emergency fund?
 

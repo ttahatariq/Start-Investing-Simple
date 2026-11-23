@@ -16,7 +16,7 @@ At its simplest, this decision comes down to comparing your debt's interest rate
 ## A general framework, roughly in priority order
 
 ### 1. Capture any employer 401(k) match first, if available
-As covered in our [401(k) guide](/blog/what-is-a-401k/), an employer match is effectively free money with an immediate, guaranteed return that's extremely difficult for anything else to compete with — including high-interest debt payoff in most cases. Contributing at least enough to capture the full match is usually a reasonable first priority before aggressively paying down anything but the highest-interest debt.
+As covered in our [401(k) guide](/blog/what-is-a-401k/), an employer match is effectively free money with an immediate, guaranteed return that's extremely difficult for anything else to compete with — including high-interest debt payoff in most cases. Contributing at least enough to capture the full match is usually a reasonable first priority before aggressively paying down anything but the highest-interest debt. Beyond the match, our guide on [how much to put in your 401(k)](/blog/how-much-to-contribute-to-401k-by-age/) covers typical contribution rates by career stage.
 
 ### 2. Pay off high-interest debt aggressively
 Debt with a high interest rate — commonly credit card debt, as discussed in our [true cost of minimum payments guide](/blog/true-cost-of-minimum-payments/) — should generally be prioritized over most investing, since the guaranteed "return" from eliminating that interest typically exceeds what you could reasonably expect from investing over the same period.

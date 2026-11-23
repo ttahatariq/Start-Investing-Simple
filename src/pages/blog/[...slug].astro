@@ -10,9 +10,17 @@ export async function getStaticPaths() {
     const wordCount = post.body?.trim().split(/\s+/).length ?? 0;
     const readingTimeMinutes = Math.max(1, Math.round(wordCount / WORDS_PER_MINUTE));
 
-    const relatedPosts = posts
-      .filter((p) => p.id !== post.id && p.data.category === post.data.category)
-      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+    // Hand-picked `related` slugs first, then fill with same-category posts sharing the most tags.
+    const picked = (post.data.related ?? [])
+      .map((id) => posts.find((p) => p.id === id))
+      .filter((p): p is (typeof posts)[number] => p !== undefined && p.id !== post.id);
+    const sharedTags = (p: (typeof posts)[number]) =>
+      p.data.tags.filter((t) => post.data.tags.includes(t)).length;
+    const fallback = posts
+      .filter((p) => p.id !== post.id && p.data.category === post.data.category && !picked.includes(p))
+      .sort((a, b) => sharedTags(b) - sharedTags(a) || b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+    const relatedPosts = [...picked, ...fallback]
       .slice(0, 3)
       .map((p) => ({
         id: p.id,

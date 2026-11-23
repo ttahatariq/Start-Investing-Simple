@@ -7,7 +7,7 @@ category: "Investing Basics"
 tags: ["dollar-cost averaging", "beginners", "investing basics"]
 ---
 
-One of the biggest psychological barriers to investing is a simple fear: "What if I invest today and the market drops tomorrow?" Dollar-cost averaging is a strategy designed to reduce exactly that anxiety, and it happens to be one of the easiest habits for beginners to adopt.
+One of the biggest psychological barriers to investing is a simple fear: "What if I invest today and the market drops tomorrow?" Dollar-cost averaging is a strategy designed to reduce exactly that anxiety, and it happens to be one of the easiest habits for beginners to adopt, whichever [beginner investments](/blog/investments-for-beginners/) you choose.
 
 ## What is dollar-cost averaging?
 

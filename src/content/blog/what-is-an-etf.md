@@ -5,9 +5,10 @@ pubDate: 2026-06-02
 author: "Start Investing Simple Team"
 category: "Investing Basics"
 tags: ["etf", "index funds", "investing basics"]
+related: ["investments-for-beginners", "index-funds-vs-individual-stocks", "understanding-expense-ratios"]
 ---
 
-If you've read about [index funds](/blog/index-funds-vs-individual-stocks/) and started looking for one to invest in, you've probably run into the term "ETF." It's one of the most common ways to actually access index investing today, so it's worth understanding exactly what it is.
+If you've read about [index funds](/blog/index-funds-vs-individual-stocks/) and started looking for one to invest in, you've probably run into the term "ETF." It's one of the most common ways to actually access index investing today, so it's worth understanding exactly what it is. (For the bigger picture of where ETFs fit, see our guide to [investments for beginners](/blog/investments-for-beginners/).)
 
 ## What does ETF stand for?
 

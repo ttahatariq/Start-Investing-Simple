@@ -5,6 +5,7 @@ pubDate: 2026-09-22
 author: "Start Investing Simple Team"
 category: "Retirement Planning"
 tags: ["401k", "roth 401k", "retirement"]
+related: ["roth-401k-vs-roth-ira", "roth-ira-vs-traditional-ira", "401k-contribution-limits"]
 ---
 
 If your employer offers both a Traditional and a Roth version of your [401(k)](/blog/what-is-a-401k/), you'll need to decide how to split your contributions between them — or which one to use exclusively. The decision mirrors the [Roth vs. Traditional IRA](/blog/roth-ira-vs-traditional-ira/) choice, applied to your workplace retirement plan.
@@ -16,7 +17,7 @@ If your employer offers both a Traditional and a Roth version of your [401(k)](/
 
 ## An important distinction from a Roth IRA
 
-Unlike a Roth IRA, a Roth 401(k) has **no income limits** restricting who can contribute. This makes the Roth 401(k) a useful option for higher earners who might otherwise be phased out of contributing directly to a Roth IRA.
+Unlike a Roth IRA, a Roth 401(k) has **no income limits** restricting who can contribute. This makes the Roth 401(k) a useful option for higher earners who might otherwise be phased out of contributing directly to a Roth IRA. For the full comparison — limits, investment choices, and withdrawal rules — see [Roth 401(k) vs. Roth IRA](/blog/roth-401k-vs-roth-ira/).
 
 ## How to think about the choice
 
@@ -27,11 +28,11 @@ As with the IRA version of this decision, the central question is: **do you expe
 
 ## The employer match: a special rule to know
 
-If your employer offers a matching contribution, that match is generally deposited into a Traditional (pre-tax) account **regardless of whether your own contributions go to the Roth or Traditional side** — a detail that surprises some people. This means even an employee contributing 100% to a Roth 401(k) will typically still end up with some pre-tax money in the plan from the employer match, which will be taxed upon withdrawal in retirement.
+If your employer offers a matching contribution, that match is generally deposited into a Traditional (pre-tax) account **regardless of whether your own contributions go to the Roth or Traditional side** — a detail that surprises some people. This means even an employee contributing 100% to a Roth 401(k) will typically still end up with some pre-tax money in the plan from the employer match, which will be taxed upon withdrawal in retirement. (The SECURE 2.0 Act now *allows* employers to offer Roth matching contributions, but many plans still deposit the match pre-tax, so check your plan's rules.)
 
 ## Required withdrawals
 
-Unlike a Roth IRA, a Roth 401(k) has historically been subject to Required Minimum Distributions (RMDs) starting at a certain age — though rules in this area have changed over time to more closely align Roth 401(k)s with Roth IRAs on this point. Because retirement account rules are updated periodically, it's worth checking current requirements directly rather than assuming older information still applies.
+Roth 401(k)s used to be subject to [Required Minimum Distributions (RMDs)](/blog/required-minimum-distributions-explained/) starting at a certain age, unlike Roth IRAs. Since 2024, the SECURE 2.0 Act has eliminated lifetime RMDs from Roth 401(k)s, so they now match Roth IRAs on this point. Traditional 401(k)s are still subject to RMDs. Because retirement account rules are updated periodically, it's worth checking current requirements directly.
 
 ## Splitting contributions between both
 

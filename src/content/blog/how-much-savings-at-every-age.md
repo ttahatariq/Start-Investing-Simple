@@ -30,7 +30,7 @@ Other versions of similar benchmarks exist with different multiples, and none of
 
 Rather than measuring yourself against a generic benchmark, more useful questions include:
 
-- **Is my savings rate improving over time**, even gradually?
+- **Is my savings rate improving over time**, even gradually? Our guide to [401(k) contributions by age](/blog/how-much-to-contribute-to-401k-by-age/) offers common reference points.
 - **Am I taking advantage of an employer 401(k) match**, if available — effectively free money, as covered in our [401(k) guide](/blog/what-is-a-401k/)?
 - **Do I have a plan for the specific milestones ahead of me** (a house down payment, children's education, retirement) rather than a vague, generic target?
 - **Am I avoiding high-interest debt** that would undermine progress on savings goals, as discussed in our [debt payoff guide](/blog/debt-payoff-snowball-vs-avalanche/)?

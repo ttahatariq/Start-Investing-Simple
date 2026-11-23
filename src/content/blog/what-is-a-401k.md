@@ -6,6 +6,7 @@ author: "Start Investing Simple Team"
 heroImage: "/img/401k-laptop.jpg"
 category: "Retirement Planning"
 tags: ["401k", "retirement", "employer benefits"]
+related: ["how-much-to-contribute-to-401k-by-age", "401k-contribution-limits", "traditional-401k-vs-roth-401k"]
 faqs:
   - question: "What is a 401(k) in simple terms?"
     answer: "A 401(k) is a retirement savings account offered through an employer, letting you contribute a portion of your paycheck — often before taxes — into investments that can grow until you withdraw the money in retirement."
@@ -32,9 +33,11 @@ The name comes from the section of the U.S. tax code that created it — it's no
 When you enroll, you choose a percentage of each paycheck to contribute (for example, 6%). That amount is automatically deducted from your paycheck and invested according to choices you make from a menu of investment options your employer's plan offers — often a selection of mutual funds or target-date funds.
 
 ### Traditional vs. Roth 401(k)
-Many employers offer both options, similar to the Traditional vs. Roth IRA distinction:
+Many employers offer both options, similar to the [Traditional vs. Roth IRA](/blog/roth-ira-vs-traditional-ira/) distinction:
 - **Traditional 401(k)**: Contributions are made before tax, reducing your taxable income now. You pay ordinary income tax when you withdraw the money in retirement.
 - **Roth 401(k)**: Contributions are made after tax (no upfront deduction), but qualified withdrawals in retirement are tax-free.
+
+Not sure which fits you? Our [Traditional vs. Roth 401(k) guide](/blog/traditional-401k-vs-roth-401k/) walks through the decision, and our [Roth 401(k) vs. Roth IRA](/blog/roth-401k-vs-roth-ira/) comparison explains how the workplace Roth differs from one you open yourself.
 
 ## The employer match: often the most valuable part
 
@@ -50,7 +53,7 @@ Some employer matching contributions come with a "vesting schedule" — meaning 
 
 ## Contribution limits
 
-The IRS sets an annual limit on how much you can contribute to a 401(k), and this limit is adjusted periodically. There's also often a separate, higher limit for people age 50 and older ("catch-up contributions"). Because these limits change, it's worth checking the current year's limits directly with your plan provider or the IRS rather than relying on a fixed number.
+The IRS sets an annual limit on how much you can contribute to a 401(k), and this limit is adjusted periodically. There's also often a separate, higher limit for people age 50 and older ([catch-up contributions](/blog/catch-up-contributions-after-50/)). Because these limits change, it's worth checking the current year's limits directly with your plan provider or the IRS rather than relying on a fixed number. For 2027, the employee limit is $25,500; our [2027 401(k) contribution limits](/blog/401k-contribution-limits/) guide breaks down every number, including catch-up amounts.
 
 ## What happens if you change jobs?
 
@@ -59,12 +62,12 @@ Your 401(k) doesn't disappear if you leave your employer. Common options include
 - Rolling it over into your new employer's 401(k)
 - Rolling it over into an IRA
 
-Cashing it out entirely is usually the least favorable option, since it typically triggers taxes and, if you're under a certain age, an early withdrawal penalty — on top of losing the future tax-advantaged growth of that money.
+Cashing it out entirely is usually the least favorable option, since it typically triggers taxes and, if you're under a certain age, an early withdrawal penalty — on top of losing the future tax-advantaged growth of that money. Our guide to [what happens to your 401(k) when you change jobs](/blog/401k-when-you-change-jobs/) covers each option in detail.
 
 ## Common questions
 
 **Do I have to invest in the stock market through my 401(k)?**
-Most plans offer a range of investment options, from more conservative bond funds to more aggressive stock funds, and often include target-date funds that automatically adjust risk over time. You choose how your contributions are allocated among the available options.
+Most plans offer a range of investment options, from more conservative bond funds to more aggressive stock funds, and often include target-date funds that automatically adjust risk over time. You choose how your contributions are allocated among the available options — our guide to [choosing your 401(k) investments](/blog/how-to-choose-401k-investments/) explains how to pick from that menu.
 
 **What if my employer doesn't offer a match?**
 A 401(k) can still be valuable purely for its tax advantages and the convenience of automatic payroll contributions, even without a match — though if you don't have access to a match, it's worth comparing the investment options and fees in your 401(k) against those available through an IRA, which might offer more flexibility.
@@ -84,6 +87,8 @@ This article covers the basics — a few related questions worth reading once th
 - [What happens to vesting if you leave your job early?](/blog/401k-vesting-schedules-explained/)
 - [What are you actually paying in fees?](/blog/401k-fees-what-youre-actually-paying/)
 - [Work for a school, nonprofit, or government agency? See 403(b) vs. 401(k)](/blog/403b-vs-401k/)
+- [Can you borrow from it? 401(k) loans and hardship withdrawals](/blog/401k-loans-and-hardship-withdrawals/)
+- [How does a 401(k) compare to a traditional pension?](/blog/pensions-vs-401k/)
 
 ## The bottom line
 

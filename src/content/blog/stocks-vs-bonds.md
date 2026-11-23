@@ -7,7 +7,7 @@ category: "Investing Basics"
 tags: ["stocks", "bonds", "investing basics"]
 ---
 
-Almost every investment portfolio, from a beginner's first brokerage account to a massive pension fund, is built around two fundamental building blocks: stocks and bonds. Understanding what each one actually represents — and how their risk and reward differ — is one of the most useful foundations you can build as a new investor.
+Almost every investment portfolio, from a beginner's first brokerage account to a massive pension fund, is built around two fundamental building blocks: stocks and bonds. Understanding what each one actually represents — and how their risk and reward differ — is one of the most useful foundations you can build as a new investor, and the starting point for choosing [investments as a beginner](/blog/investments-for-beginners/).
 
 ## What is a stock?
 

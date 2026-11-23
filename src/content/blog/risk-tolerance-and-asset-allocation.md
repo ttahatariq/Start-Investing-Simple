@@ -64,6 +64,6 @@ Rather than guessing, try our free [Risk Tolerance Quiz](/tools/risk-tolerance-q
 
 ## The bottom line
 
-Risk tolerance and asset allocation are deeply personal — there's no single "right" portfolio mix that applies to everyone with the same goal. Understanding your own capacity and comfort with risk, honestly, is often more valuable than chasing a theoretically optimal allocation you won't actually stick with when markets get rocky.
+Risk tolerance and asset allocation are deeply personal — there's no single "right" portfolio mix that applies to everyone with the same goal. Understanding your own capacity and comfort with risk, honestly, is often more valuable than chasing a theoretically optimal allocation you won't actually stick with when markets get rocky. If you'd like to dig deeper into investor behavior, several titles on our list of [investing books for beginners](/blog/best-investing-books-for-beginners/), like *The Psychology of Money*, focus on exactly this.
 
 We're not your financial advisor — just explaining how this works. Full [disclaimer](/disclaimer/) here.

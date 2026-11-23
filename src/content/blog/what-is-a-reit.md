@@ -7,7 +7,7 @@ category: "Investing Basics"
 tags: ["reit", "real estate", "investing basics"]
 ---
 
-Real estate has long been considered a popular way to build wealth, but buying property directly requires significant capital, ongoing management, and isn't easy to sell quickly if you need the money. A REIT offers a way to invest in real estate without any of that.
+Real estate has long been considered a popular way to build wealth, but buying property directly requires significant capital, ongoing management, and isn't easy to sell quickly if you need the money. A REIT offers a way to invest in real estate without any of that, and it's one of the options covered in our guide to [investments for beginners](/blog/investments-for-beginners/).
 
 ## What is a REIT?
 

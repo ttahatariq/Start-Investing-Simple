@@ -20,6 +20,40 @@ export async function getStaticPaths() {
 
 const { category, posts } = Astro.props;
 
+// Hub intros: point each category at its pillar and key cluster posts (internal linking / topical authority).
+const intros: Record<string, { text: string; links: { href: string; label: string }[] }> = {
+  'Retirement Planning': {
+    text: "New to retirement accounts? Start with how a 401(k) works, then decide how much to contribute and which account types fit you.",
+    links: [
+      { href: '/blog/what-is-a-401k/', label: 'What is a 401(k)?' },
+      { href: '/blog/how-much-to-contribute-to-401k-by-age/', label: 'How much should I contribute to my 401(k)?' },
+      { href: '/blog/401k-contribution-limits/', label: '2027 401(k) contribution limits' },
+      { href: '/blog/403b-vs-401k/', label: '403(b) vs. 401(k)' },
+      { href: '/blog/roth-401k-vs-roth-ira/', label: 'Roth 401(k) vs. Roth IRA' },
+      { href: '/blog/roth-ira-vs-traditional-ira/', label: 'Roth IRA vs. Traditional IRA' },
+    ],
+  },
+  'Investing Basics': {
+    text: 'Just getting started? These guides cover the account you need, the simplest investments for beginners, and how to think about risk.',
+    links: [
+      { href: '/blog/investments-for-beginners/', label: 'Investments for beginners' },
+      { href: '/blog/what-is-a-brokerage-account/', label: 'What is a brokerage account?' },
+      { href: '/blog/index-funds-vs-individual-stocks/', label: 'Index funds vs. individual stocks' },
+      { href: '/blog/what-is-an-etf/', label: 'What is an ETF?' },
+      { href: '/blog/risk-tolerance-and-asset-allocation/', label: 'Risk tolerance & asset allocation' },
+    ],
+  },
+  'Saving & Budgeting': {
+    text: 'Get your foundation in place before investing: a simple budget, an emergency fund, and a plan for any debt.',
+    links: [
+      { href: '/blog/50-30-20-budget-rule/', label: 'The 50/30/20 budget rule' },
+      { href: '/blog/build-emergency-fund-before-investing/', label: 'Build an emergency fund first' },
+      { href: '/blog/pay-off-debt-or-invest-first/', label: 'Pay off debt or invest first?' },
+    ],
+  },
+};
+const intro = intros[category];
+
 const formatDate = (date: Date) =>
   date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
@@ -32,6 +66,17 @@ const formatDate = (date: Date) =>
     <p class="font-mono text-xs uppercase tracking-widest text-brand">Category<span class="text-orange">/</span></p>
     <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-paper sm:text-4xl">{category}</h1>
     <p class="mt-3 text-lg text-muted">{posts.length} article{posts.length === 1 ? '' : 's'} in this category.</p>
+
+    {intro && (
+      <div class="mt-8 rounded-sm bg-surface p-6">
+        <p class="text-paper">{intro.text}</p>
+        <ul class="mt-4 flex flex-wrap gap-x-6 gap-y-2">
+          {intro.links.map((l) => (
+            <li><a href={l.href} class="font-mono text-sm text-brand hover:underline">{l.label} &rarr;</a></li>
+          ))}
+        </ul>
+      </div>
+    )}
 
     <ul class="mt-10 grid gap-6 sm:grid-cols-2">
       {posts.map((post) => (

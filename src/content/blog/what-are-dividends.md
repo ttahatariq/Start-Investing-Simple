@@ -7,7 +7,7 @@ category: "Investing Basics"
 tags: ["dividends", "stocks", "investing basics"]
 ---
 
-If you've browsed investment news or a stock's information page, you've probably seen the word "dividend" mentioned alongside a percentage. Dividends are one of the two main ways stock investors can earn a return (the other being price appreciation), and understanding how they work fills in an important piece of the investing puzzle.
+If you've browsed investment news or a stock's information page, you've probably seen the word "dividend" mentioned alongside a percentage. Dividends are one of the two main ways stock investors can earn a return (the other being price appreciation), and understanding how they work fills in an important piece of the investing puzzle. (For an overview of where dividend stocks fit among other [investments for beginners](/blog/investments-for-beginners/), start there.)
 
 ## What is a dividend?
 

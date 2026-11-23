@@ -5,11 +5,12 @@ pubDate: 2026-09-01
 author: "Taha Tariq"
 category: "Investing Basics"
 tags: ["brokerage account", "beginners", "investing basics"]
+related: ["investments-for-beginners", "roth-ira-vs-traditional-ira", "what-is-an-etf"]
 ---
 
 I remember staring at the account-opening form for my first brokerage account and feeling like I'd stumbled into a different language — "settlement date," "market order," "cash vs. margin." None of it was actually complicated once I understood it; it was just unfamiliar, the same way any new system looks intimidating before you've used it once.
 
-Before you can buy your first stock, ETF, or index fund, you need somewhere to actually hold that investment — that's what a brokerage account is for. If you've never opened one, the process is less complicated than it might seem.
+Before you can buy your first stock, ETF, or index fund, you need somewhere to actually hold that investment — that's what a brokerage account is for. If you've never opened one, the process is less complicated than it might seem. (Not sure what to buy once it's open? Start with our guide to [investments for beginners](/blog/investments-for-beginners/).)
 
 ## What is a brokerage account?
 
